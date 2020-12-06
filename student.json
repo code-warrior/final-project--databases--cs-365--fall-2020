@@ -534,159 +534,101 @@
   "Christopher Porter 19135569":  {
     "Personal Information": {
       "Name": [{
-        "First":"Henry",
-        "Middle":"Peter",
-        "Last":"Collins",
-        "Preferred":"Henry"
+        "First name":"Christopher",
+        "Middle name":"Brian",
+        "Last name":"Porter",
+        "Preferred name":"Chris"
       }],
-      "Phone":"413-668-5774",
-      "Email address":"Collins@hartford.edu"
+      "Phone":"203-654-3987",
+      "Email":"Chporter@hartford.edu"
     },
     "School Information": {
-      "Student ID":"19593544",
+      "Student ID":"19135569",
       "Curriculum": [{
-        "Major":"Computer Science",
-        "Minor":"Math"}],
-      "Advisor":"Professor Russell"
+        "Major":"Computer Engineering",
+        "Minor":  "Math"}],
+      "Advisor": "Professor Eppes"
     },
     "Graduation Status": {
-      "Year":"None",
+      "Year": "First-year",
       "GPA":"3.80",
-      "Student status":"graduated",
-      "Date of initial enrollment":"September 2015",
-      "Graduation date":"May 2019"},
-    "First name":"Christopher",
-    "Middle name":"Brian",
-    "Last name":"Porter",
-    "Preferred name":"Chris",
-    "Student ID":"19135569",
-    "Email":"Chporter@hartford.edu",
-    "Phone":"203-654-3987",
-    "Year": "First-year",
-    "GPA":"3.80",
-    "Major":"Computer Engineering",
-    "Minor":  "Math",
-    "Student status":"withdrawn",
-    "Advisor": "Professor Eppes",
-    "Date of initial enrollment": "September 2011",
-    "Graduation date": "May 2015"},
+      "Student status":"withdrawn",
+      "Date of initial enrollment": "September 2011",
+      "Graduation date": "May 2015"}},
   "Christopher Porter 19564469": {
     "Personal Information": {
       "Name": [{
-        "First":"Henry",
-        "Middle":"Peter",
-        "Last":"Collins",
-        "Preferred":"Henry"
+        "First name": "Christopher",
+        "Middle name":"Steven",
+        "Last name":"Porter",
+        "Preferred name":"Steve"
       }],
-      "Phone":"413-668-5774",
-      "Email address":"Collins@hartford.edu"
+      "Phone":"413-197-3492",
+      "Email": "Cporter@hartford.edu"
     },
     "School Information": {
-      "Student ID":"19593544",
+      "Student ID": "19564469",
       "Curriculum": [{
-        "Major":"Computer Science",
+        "Major": "Computer Engineering",
         "Minor":"Math"}],
-      "Advisor":"Professor Russell"
+      "Advisor": "Professor Eppes"
     },
     "Graduation Status": {
-      "Year":"None",
-      "GPA":"3.80",
-      "Student status":"graduated",
-      "Date of initial enrollment":"September 2015",
-      "Graduation date":"May 2019"},
-    "First name": "Christopher",
-    "Middle name":"Steven",
-    "Last name":"Porter",
-    "Preferred name":"Steve",
-    "Student ID": "19564469",
-    "Email": "Cporter@hartford.edu",
-    "Phone":"413-197-3492",
-    "Year": "First-year",
-    "GPA":"3.70",
-    "Major": "Computer Engineering",
-    "Minor":"Math",
-    "Student status":"full-time",
-    "Advisor": "Professor Eppes",
-    "Date of initial enrollment": "September 2015",
-    "Graduation date": "May 2020"},
+      "Year": "First-year",
+      "GPA":"3.70",
+      "Student status":"full-time",
+      "Date of initial enrollment": "September 2015",
+      "Graduation date": "May 2020"}
+  },
   "Ryan Porter 19324896":  {
     "Personal Information": {
       "Name": [{
-        "First":"Henry",
-        "Middle":"Peter",
-        "Last":"Collins",
-        "Preferred":"Henry"
+        "First name": "Ryan",
+        "Middle name":"Michael",
+        "Last name":"Porter",
+        "Preferred name":"Ryan"
       }],
-      "Phone":"413-668-5774",
-      "Email address":"Collins@hartford.edu"
+      "Phone":"860-647-8221",
+      "Email":"Rporter@hartford.edu"
     },
     "School Information": {
-      "Student ID":"19593544",
+      "Student ID": "19324896",
       "Curriculum": [{
-        "Major":"Computer Science",
+        "Major":  "Computer Science",
         "Minor":"Math"}],
-      "Advisor":"Professor Russell"
+      "Advisor": "Professor Rosiene"
     },
     "Graduation Status": {
-      "Year":"None",
+      "Year": "None",
       "GPA":"3.80",
       "Student status":"graduated",
-      "Date of initial enrollment":"September 2015",
-      "Graduation date":"May 2019"},
-    "First name": "Ryan",
-    "Middle name":"Michael",
-    "Last name":"Porter",
-    "Preferred name":"Ryan",
-    "Student ID": "19324896",
-    "Email":"Rporter@hartford.edu",
-    "Phone":"860-647-8221",
-    "Year": "None",
-    "GPA":"3.80",
-    "Major":  "Computer Science",
-    "Minor":"Math",
-    "Student status":"graduated",
-    "Advisor": "Professor Rosiene",
-    "Date of initial enrollment":"September 2013",
-    "Graduation date": "May 2018"},
+      "Date of initial enrollment":"September 2013",
+      "Graduation date": "May 2018"}},
   "Veronica Potter 19761335": {
     "Personal Information": {
       "Name": [{
-        "First":"Henry",
-        "Middle":"Peter",
-        "Last":"Collins",
-        "Preferred":"Henry"
+        "First name":"Veronica",
+        "Middle name":"Christina",
+        "Last name":"Potter",
+        "Preferred name":"Christy"
       }],
-      "Phone":"413-668-5774",
-      "Email address":"Collins@hartford.edu"
+      "Phone":"860-645-8821",
+      "Email":"Vepotter@hartford.edu"
     },
     "School Information": {
-      "Student ID":"19593544",
+      "Student ID": "19761335",
       "Curriculum": [{
         "Major":"Computer Science",
         "Minor":"Math"}],
-      "Advisor":"Professor Russell"
+      "Advisor":"Professor Rosiene"
     },
     "Graduation Status": {
-      "Year":"None",
-      "GPA":"3.80",
-      "Student status":"graduated",
-      "Date of initial enrollment":"September 2015",
-      "Graduation date":"May 2019"},
-    "First name":"Veronica",
-    "Middle name":"Christina",
-    "Last name":"Potter",
-    "Preferred name":"Christy",
-    "Student ID": "19761335",
-    "Email":"Vepotter@hartford.edu",
-    "Phone":"860-645-8821",
-    "Year":"First-year",
-    "GPA":"3.90",
-    "Major":"Computer Science",
-    "Minor":"Math",
-    "Student status":"full-time",
-    "Advisor":"Professor Rosiene",
-    "Date of initial enrollment":"September 2017",
-    "Graduation date":"May 2021"},
+      "Year":"First-year",
+      "GPA":"3.90",
+      "Student status":"full-time",
+      "Date of initial enrollment":"September 2017",
+      "Graduation date":"May 2021"}
+  },
   "Audrey Sanders 19783304": {
     "Personal Information": {
       "Name": [{
