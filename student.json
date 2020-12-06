@@ -27,120 +27,78 @@
   "Mary Daniels 19368854":  {
     "Personal Information": {
       "Name": [{
-        "First":"Henry",
-        "Middle":"Peter",
-        "Last":"Collins",
-        "Preferred":"Henry"
+        "First name":"Mary",
+        "Middle name":"Nicole",
+        "Last name": "Daniels",
+        "Preferred name":"Mary"
       }],
-      "Phone":"413-668-5774",
-      "Email address":"Collins@hartford.edu"
+      "Phone":"860-441-2556",
+      "Email":"Mdaniels@hartford.edu"
     },
     "School Information": {
-      "Student ID":"19593544",
+      "Student ID": "19368854",
       "Curriculum": [{
-        "Major":"Computer Science",
+        "Major": "Computer Engineering",
         "Minor":"Math"}],
-      "Advisor":"Professor Russell"
+      "Advisor": "Professor Eppes"
     },
     "Graduation Status": {
-      "Year":"None",
-      "GPA":"3.80",
+      "Year": "None",
+      "GPA":"3.66",
       "Student status":"graduated",
-      "Date of initial enrollment":"September 2015",
-      "Graduation date":"May 2019"},
-    "First name":"Mary",
-    "Middle name":"Nicole",
-    "Last name": "Daniels",
-    "Preferred name":"Mary",
-    "Student ID": "19368854",
-    "Email":"Mdaniels@hartford.edu",
-    "Phone":"860-441-2556",
-    "Year": "None",
-    "GPA":"3.66",
-    "Major": "Computer Engineering",
-    "Minor":"Math",
-    "Student status":"graduated",
-    "Advisor": "Professor Eppes",
-    "Date of initial enrollment": "September 2013",
-    "Graduation date":"May 2017"},
+      "Date of initial enrollment": "September 2013",
+      "Graduation date":"May 2017"}
+  },
   "Maria Davis 19778028": {
     "Personal Information": {
       "Name": [{
-        "First":"Henry",
-        "Middle":"Peter",
-        "Last":"Collins",
-        "Preferred":"Henry"
+        "First name":"Maria",
+        "Middle name":"Christina",
+        "Last name":  "Davis",
+        "Preferred name":"Maria"
       }],
-      "Phone":"413-668-5774",
-      "Email address":"Collins@hartford.edu"
+      "Phone":"860-223-1886",
+      "Email":"Mdavis@hartford.edu"
     },
     "School Information": {
-      "Student ID":"19593544",
+      "Student ID": "19778028",
       "Curriculum": [{
         "Major":"Computer Science",
-        "Minor":"Math"}],
+        "Minor":"None"}],
       "Advisor":"Professor Russell"
     },
     "Graduation Status": {
-      "Year":"None",
-      "GPA":"3.80",
-      "Student status":"graduated",
-      "Date of initial enrollment":"September 2015",
-      "Graduation date":"May 2019"},
-    "First name":"Maria",
-    "Middle name":"Christina",
-    "Last name":  "Davis",
-    "Preferred name":"Maria",
-    "Student ID": "19778028",
-    "Email":"Mdavis@hartford.edu",
-    "Phone":"860-223-1886",
-    "Year": "First-year",
-    "GPA":"3.70",
-    "Major":"Computer Science",
-    "Minor":"None",
-    "Student status":"full-time",
-    "Advisor":"Professor Russell",
-    "Date of initial enrollment": "September 2017",
-    "Graduation date": "May 2021"},
+      "Year": "First-year",
+      "GPA":"3.70",
+      "Student status":"full-time",
+      "Advisor":"Professor Russell",
+      "Date of initial enrollment": "September 2017",
+      "Graduation date": "May 2021"}
+  },
   "Michelle Ford 19649173": {
     "Personal Information": {
       "Name": [{
-        "First":"Henry",
-        "Middle":"Peter",
-        "Last":"Collins",
-        "Preferred":"Henry"
+        "First name":"Michelle",
+        "Middle name":"Patricia",
+        "Last name":"Ford",
+        "Preferred name":"Michelle"
       }],
-      "Phone":"413-668-5774",
-      "Email address":"Collins@hartford.edu"
+      "Phone":"413-743-5569",
+      "Email":"Miford@hartford.edu"
     },
     "School Information": {
-      "Student ID":"19593544",
+      "Student ID": "19649173",
       "Curriculum": [{
-        "Major":"Computer Science",
-        "Minor":"Math"}],
+        "Major": "Computer Science",
+        "Minor": "Math"}],
       "Advisor":"Professor Russell"
     },
     "Graduation Status": {
-      "Year":"None",
+      "Year":"Second-year",
       "GPA":"3.80",
-      "Student status":"graduated",
-      "Date of initial enrollment":"September 2015",
-      "Graduation date":"May 2019"},
-    "First name":"Michelle",
-    "Middle name":"Patricia",
-    "Last name":"Ford",
-    "Preferred name":"Michelle",
-    "Student ID": "19649173",
-    "Email":"Miford@hartford.edu",
-    "Phone":"413-743-5569",
-    "Year":"Second-year",
-    "GPA":"3.80",
-    "Major": "Computer Science",
-    "Minor": "Math",
-    "Student status":"full-time",
-    "Advisor":"Professor Russell",
-    "Date of initial enrollment":"September 2016",
-    "Graduation date":"May 2020"},
+      "Student status":"full-time",
+      "Date of initial enrollment":"September 2016",
+      "Graduation date":"May 2020"}},
   "Robert Foreman 19742866":{
     "Personal Information": {
       "Name": [{
