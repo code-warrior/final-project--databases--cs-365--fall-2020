@@ -14,33 +14,269 @@
     "Instruction 3": "Update the status of the student advised by Donald Knuth with the highest GPA to “graduated”",
     "Instruction 4": "Update the status of the student with the lowest GPA to 'withdrawn'"
   },
-  "Instruction 1 Code":{
-    "Henry Collins 19593544":  {
-      "Personal Information": {
-        "Name": [{
-          "First":"Henry",
-          "Middle":"Peter",
-          "Last":"Collins",
-          "Preferred":"Henry"
+  "Instruction 1 Code":
+    [
+      {"Student 1":  {
+        "Personal Information": {
+          "Name": [{
+          "First":"",
+          "Middle":"",
+          "Last":"",
+          "Preferred":""
         }],
-        "Phone":"413-668-5774",
-        "Email address":"Collins@hartford.edu"
+        "Phone":"",
+        "Email address":""
       },
       "School Information": {
-        "Student ID":"19593544",
+        "Student ID":"",
         "Curriculum": [{
-          "Major":"Computer Science",
-          "Minor":"Math"}],
-        "Advisor":"Professor Russell"
+          "Major":"",
+          "Minor":""}],
+        "Advisor":""
       },
       "Graduation Status": {
-        "Year":"None",
-        "GPA":"3.80",
-        "Student status":"graduated",
-        "Date of initial enrollment":"September 2015",
-        "Graduation date":"May 2019"}
+        "Year":"",
+        "GPA":"",
+        "Student status":"",
+        "Date of initial enrollment":"",
+        "Graduation date":""}
     }
-  },
+    },
+      {"Student 2":  {
+        "Personal Information": {
+          "Name": [{
+            "First":"",
+            "Middle":"",
+            "Last":"",
+            "Preferred":""
+          }],
+          "Phone":"",
+          "Email address":""
+        },
+        "School Information": {
+          "Student ID":"",
+          "Curriculum": [{
+            "Major":"",
+            "Minor":""}],
+          "Advisor":""
+        },
+        "Graduation Status": {
+          "Year":"",
+          "GPA":"",
+          "Student status":"",
+          "Date of initial enrollment":"",
+          "Graduation date":""}
+      }
+      },
+      {"Student 3":  {
+      "Personal Information": {
+        "Name": [{
+          "First":"",
+          "Middle":"",
+          "Last":"",
+          "Preferred":""
+        }],
+        "Phone":"",
+        "Email address":""
+      },
+      "School Information": {
+        "Student ID":"",
+        "Curriculum": [{
+          "Major":"",
+          "Minor":""}],
+        "Advisor":""
+      },
+      "Graduation Status": {
+        "Year":"",
+        "GPA":"",
+        "Student status":"",
+        "Date of initial enrollment":"",
+        "Graduation date":""}
+    }
+    },
+      {"Student 4":  {
+        "Personal Information": {
+          "Name": [{
+            "First":"",
+            "Middle":"",
+            "Last":"",
+            "Preferred":""
+          }],
+          "Phone":"",
+          "Email address":""
+        },
+        "School Information": {
+          "Student ID":"",
+          "Curriculum": [{
+            "Major":"",
+            "Minor":""}],
+          "Advisor":""
+        },
+        "Graduation Status": {
+          "Year":"",
+          "GPA":"",
+          "Student status":"",
+          "Date of initial enrollment":"",
+          "Graduation date":""}
+      }
+      },
+      {"Student 5":  {
+        "Personal Information": {
+          "Name": [{
+            "First":"",
+            "Middle":"",
+            "Last":"",
+            "Preferred":""
+          }],
+          "Phone":"",
+          "Email address":""
+        },
+        "School Information": {
+          "Student ID":"",
+          "Curriculum": [{
+            "Major":"",
+            "Minor":""}],
+          "Advisor":""
+        },
+        "Graduation Status": {
+          "Year":"",
+          "GPA":"",
+          "Student status":"",
+          "Date of initial enrollment":"",
+          "Graduation date":""}
+      }
+      },
+      {"Student 6":  {
+        "Personal Information": {
+          "Name": [{
+            "First":"",
+            "Middle":"",
+            "Last":"",
+            "Preferred":""
+          }],
+          "Phone":"",
+          "Email address":""
+        },
+        "School Information": {
+          "Student ID":"",
+          "Curriculum": [{
+            "Major":"",
+            "Minor":""}],
+          "Advisor":""
+        },
+        "Graduation Status": {
+          "Year":"",
+          "GPA":"",
+          "Student status":"",
+          "Date of initial enrollment":"",
+          "Graduation date":""}
+      }
+      },
+      {"Student 7":  {
+        "Personal Information": {
+          "Name": [{
+            "First":"",
+            "Middle":"",
+            "Last":"",
+            "Preferred":""
+          }],
+          "Phone":"",
+          "Email address":""
+        },
+        "School Information": {
+          "Student ID":"",
+          "Curriculum": [{
+            "Major":"",
+            "Minor":""}],
+          "Advisor":""
+        },
+        "Graduation Status": {
+          "Year":"",
+          "GPA":"",
+          "Student status":"",
+          "Date of initial enrollment":"",
+          "Graduation date":""}
+      }
+      },
+      {"Student 8":  {
+        "Personal Information": {
+          "Name": [{
+            "First":"",
+            "Middle":"",
+            "Last":"",
+            "Preferred":""
+          }],
+          "Phone":"",
+          "Email address":""
+        },
+        "School Information": {
+          "Student ID":"",
+          "Curriculum": [{
+            "Major":"",
+            "Minor":""}],
+          "Advisor":""
+        },
+        "Graduation Status": {
+          "Year":"",
+          "GPA":"",
+          "Student status":"",
+          "Date of initial enrollment":"",
+          "Graduation date":""}
+      }
+      },
+      {"Student 9":  {
+        "Personal Information": {
+          "Name": [{
+            "First":"",
+            "Middle":"",
+            "Last":"",
+            "Preferred":""
+          }],
+          "Phone":"",
+          "Email address":""
+        },
+        "School Information": {
+          "Student ID":"",
+          "Curriculum": [{
+            "Major":"",
+            "Minor":""}],
+          "Advisor":""
+        },
+        "Graduation Status": {
+          "Year":"",
+          "GPA":"",
+          "Student status":"",
+          "Date of initial enrollment":"",
+          "Graduation date":""}
+      }
+      },
+      {"Student 10":  {
+        "Personal Information": {
+          "Name": [{
+            "First":"",
+            "Middle":"",
+            "Last":"",
+            "Preferred":""
+          }],
+          "Phone":"",
+          "Email address":""
+        },
+        "School Information": {
+          "Student ID":"",
+          "Curriculum": [{
+            "Major":"",
+            "Minor":""}],
+          "Advisor":""
+        },
+        "Graduation Status": {
+          "Year":"",
+          "GPA":"",
+          "Student status":"",
+          "Date of initial enrollment":"",
+          "Graduation date":""}
+      }
+      }
+    ],
   "Instruction 2 Code": {
 
   },
