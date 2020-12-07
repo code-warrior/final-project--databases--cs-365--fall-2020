@@ -35,7 +35,7 @@
         "Advisor":"Professor Rosiene"
       },
       "Graduation Status": {
-        "Year":"Senior",
+        "Year":"fourth-year",
         "GPA":"3.66",
         "Student status":"full-time",
         "Date of initial enrollment":"September 2013",
@@ -61,7 +61,7 @@
           "Advisor":"Professor Donald Knuth"
         },
         "Graduation Status": {
-          "Year":"Junior",
+          "Year":"third-year",
           "GPA":"3.85",
           "Student status":"part-time",
           "Date of initial enrollment":"September 2016",
@@ -87,7 +87,7 @@
         "Advisor":"Professor Andrews"
       },
       "Graduation Status": {
-        "Year":"Freshman",
+        "Year":"first-year",
         "GPA":"4.00",
         "Student status":"full-time",
         "Date of initial enrollment":"Sept 2014",
@@ -110,170 +110,170 @@
           "Curriculum": [{
             "Major":"Mathematics",
             "Minor":"Computer Science"}],
-          "Advisor":""
+          "Advisor":"Professor Haruta"
         },
         "Graduation Status": {
-          "Year":"",
+          "Year":"fourth-year",
           "GPA":"3.50",
-          "Student status":"",
-          "Date of initial enrollment":"",
-          "Graduation date":""}
+          "Student status":"full-time",
+          "Date of initial enrollment":"Sept 2016",
+          "Graduation date":"May 2020"}
       }
       },
       {"Student 5":  {
         "Personal Information": {
           "Name": [{
-            "First":"",
-            "Middle":"",
-            "Last":"",
-            "Preferred":""
+            "First":"Valerie",
+            "Middle":"Sarah",
+            "Last":"Martinez",
+            "Preferred":"Val"
           }],
-          "Phone":"",
-          "Email address":""
+          "Phone":"4132298763",
+          "Email address":"Martinez@hartford.edu"
         },
         "School Information": {
-          "Student ID":"",
+          "Student ID":"19769875",
           "Curriculum": [{
-            "Major":"",
-            "Minor":""}],
-          "Advisor":""
+            "Major":"Mathematics",
+            "Minor":"Physics"}],
+          "Advisor":"Professor Turpin"
         },
         "Graduation Status": {
-          "Year":"",
+          "Year":"second-year",
           "GPA":"3.60",
-          "Student status":"",
-          "Date of initial enrollment":"",
-          "Graduation date":""}
+          "Student status":"part-time",
+          "Date of initial enrollment":"Sept 2017",
+          "Graduation date":"May 2022"}
       }
       },
       {"Student 6":  {
         "Personal Information": {
           "Name": [{
-            "First":"",
-            "Middle":"",
-            "Last":"",
-            "Preferred":""
+            "First":"Danielle",
+            "Middle":"Christina",
+            "Last":"Jackson",
+            "Preferred":"Dani"
           }],
-          "Phone":"",
-          "Email address":""
+          "Phone":"2037428641",
+          "Email address":"Jackson@hartford.edu"
         },
         "School Information": {
-          "Student ID":"",
+          "Student ID":"19863345",
           "Curriculum": [{
-            "Major":"",
-            "Minor":""}],
-          "Advisor":""
+            "Major":"Computer Engineering",
+            "Minor":"None"}],
+          "Advisor":"Professor Yang"
         },
         "Graduation Status": {
-          "Year":"",
+          "Year":"Second-year",
           "GPA":"3.75",
-          "Student status":"",
-          "Date of initial enrollment":"",
-          "Graduation date":""}
+          "Student status":"full-time",
+          "Date of initial enrollment":"Sept 2018",
+          "Graduation date":"May 2022"}
       }
       },
       {"Student 7":  {
         "Personal Information": {
           "Name": [{
-            "First":"",
-            "Middle":"",
-            "Last":"",
-            "Preferred":""
+            "First":"Lily",
+            "Middle":"Evelyn",
+            "Last":"Roberts",
+            "Preferred":"Lily"
           }],
-          "Phone":"",
-          "Email address":""
+          "Phone":"8605486221",
+          "Email address":"Lroberts@hartford.edu"
         },
         "School Information": {
-          "Student ID":"",
+          "Student ID":"19950933",
           "Curriculum": [{
-            "Major":"",
-            "Minor":""}],
-          "Advisor":""
+            "Major":"Mathematics",
+            "Minor":"None"}],
+          "Advisor":"Professor Haruta"
         },
         "Graduation Status": {
-          "Year":"3.25",
-          "GPA":"",
-          "Student status":"",
-          "Date of initial enrollment":"",
-          "Graduation date":""}
+          "Year":"fourth-year",
+          "GPA":"3.25",
+          "Student status":"part-time",
+          "Date of initial enrollment":"Sept 2019",
+          "Graduation date":"Dec 2023"}
       }
       },
       {"Student 8":  {
         "Personal Information": {
           "Name": [{
-            "First":"",
-            "Middle":"",
-            "Last":"",
-            "Preferred":""
+            "First":"Michelle",
+            "Middle":"Lisa",
+            "Last":"Nelson",
+            "Preferred":"Mickey"
           }],
-          "Phone":"",
-          "Email address":""
+          "Phone":"4139283304",
+          "Email address":"MNelson@hartford.edu"
         },
         "School Information": {
-          "Student ID":"",
+          "Student ID":"19384487",
           "Curriculum": [{
-            "Major":"",
-            "Minor":""}],
+            "Major":"Computer Science",
+            "Minor":"Mathematics"}],
           "Advisor":"Professor Donald Knuth"
         },
         "Graduation Status": {
-          "Year":"",
+          "Year":"Second-year",
           "GPA":"2.75",
-          "Student status":"",
-          "Date of initial enrollment":"",
-          "Graduation date":""}
+          "Student status":"full-time",
+          "Date of initial enrollment":"Sept 2013",
+          "Graduation date":"May 2017"}
       }
       },
       {"Student 9":  {
         "Personal Information": {
           "Name": [{
-            "First":"",
-            "Middle":"",
-            "Last":"",
-            "Preferred":""
+            "First":"Stephen",
+            "Middle":"Michael",
+            "Last":"Jones",
+            "Preferred":"Mike"
           }],
-          "Phone":"",
-          "Email address":""
+          "Phone":"8603937479",
+          "Email address":"MiJones@hartford.edu"
         },
         "School Information": {
-          "Student ID":"",
+          "Student ID":"19853974",
           "Curriculum": [{
-            "Major":"",
-            "Minor":""}],
-          "Advisor":""
+            "Major":"Computer Science",
+            "Minor":"None"}],
+          "Advisor":"Professor Russell"
         },
         "Graduation Status": {
-          "Year":"",
+          "Year":"third-year",
           "GPA":"1.8",
-          "Student status":"",
-          "Date of initial enrollment":"",
-          "Graduation date":""}
+          "Student status":"part-time",
+          "Date of initial enrollment":"Sept 2018",
+          "Graduation date":"May 2023"}
       }
       },
       {"Student 10":  {
         "Personal Information": {
           "Name": [{
-            "First":"",
-            "Middle":"",
-            "Last":"",
-            "Preferred":""
+            "First":"Victoria",
+            "Middle":"Jessica",
+            "Last":"Nunez",
+            "Preferred":"Vicki"
           }],
-          "Phone":"",
-          "Email address":""
+          "Phone":"4139387743",
+          "Email address":"Nunez@hartford.edu"
         },
         "School Information": {
-          "Student ID":"",
+          "Student ID":"19874643",
           "Curriculum": [{
-            "Major":"",
-            "Minor":""}],
-          "Advisor":""
+            "Major":"Computer Science",
+            "Minor":"Mathematics"}],
+          "Advisor":"Professor Russell"
         },
         "Graduation Status": {
-          "Year":"",
+          "Year":"third-year",
           "GPA":"1.0",
-          "Student status":"",
-          "Date of initial enrollment":"",
-          "Graduation date":""}
+          "Student status":"part-time",
+          "Date of initial enrollment":"Sept 2018",
+          "Graduation date":"May 2023"}
       }
       }
     ],
