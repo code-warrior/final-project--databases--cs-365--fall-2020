@@ -15,8 +15,31 @@
     "Instruction 4": "Update the status of the student with the lowest GPA to 'withdrawn'"
   },
   "Instruction 1 Code":{
-
-
+    "Henry Collins 19593544":  {
+      "Personal Information": {
+        "Name": [{
+          "First":"Henry",
+          "Middle":"Peter",
+          "Last":"Collins",
+          "Preferred":"Henry"
+        }],
+        "Phone":"413-668-5774",
+        "Email address":"Collins@hartford.edu"
+      },
+      "School Information": {
+        "Student ID":"19593544",
+        "Curriculum": [{
+          "Major":"Computer Science",
+          "Minor":"Math"}],
+        "Advisor":"Professor Russell"
+      },
+      "Graduation Status": {
+        "Year":"None",
+        "GPA":"3.80",
+        "Student status":"graduated",
+        "Date of initial enrollment":"September 2015",
+        "Graduation date":"May 2019"}
+    }
   },
   "Instruction 2 Code": {
 

@@ -1,30 +1,29 @@
-{"College_Directory": "University of Hartford",
-  "Henry Collins 19593544":  {
-    "Personal Information": {
-      "Name": [{
-        "First":"Henry",
-        "Middle":"Peter",
-        "Last":"Collins",
-        "Preferred":"Henry"
-      }],
-      "Phone":"413-668-5774",
-      "Email address":"Collins@hartford.edu"
-    },
-    "School Information": {
-      "Student ID":"19593544",
-      "Curriculum": [{
-        "Major":"Computer Science",
-        "Minor":"Math"}],
-      "Advisor":"Professor Russell"
-    },
-    "Graduation Status": {
-      "Year":"None",
-      "GPA":"3.80",
-      "Student status":"graduated",
-      "Date of initial enrollment":"September 2015",
-      "Graduation date":"May 2019"}
-    },
-  "Mary Daniels 19368854":  {
+[{"Henry Collins 19593544":  {
+  "Personal Information": {
+    "Name": [{
+      "First":"Henry",
+      "Middle":"Peter",
+      "Last":"Collins",
+      "Preferred":"Henry"
+    }],
+    "Phone":"413-668-5774",
+    "Email address":"Collins@hartford.edu"
+  },
+  "School Information": {
+    "Student ID":"19593544",
+    "Curriculum": [{
+      "Major":"Computer Science",
+      "Minor":"Math"}],
+    "Advisor":"Professor Russell"
+  },
+  "Graduation Status": {
+    "Year":"None",
+    "GPA":"3.80",
+    "Student status":"graduated",
+    "Date of initial enrollment":"September 2015",
+    "Graduation date":"May 2019"}
+}},
+  { "Mary Daniels 19368854":  {
     "Personal Information": {
       "Name": [{
         "First name":"Mary",
@@ -48,8 +47,9 @@
       "Student status":"graduated",
       "Date of initial enrollment": "September 2013",
       "Graduation date":"May 2017"}
+  }
   },
-  "Maria Davis 19778028": {
+  {"Maria Davis 19778028": {
     "Personal Information": {
       "Name": [{
         "First name":"Maria",
@@ -74,8 +74,8 @@
       "Advisor":"Professor Russell",
       "Date of initial enrollment": "September 2017",
       "Graduation date": "May 2021"}
-  },
-  "Michelle Ford 19649173": {
+  }},
+  {"Michelle Ford 19649173": {
     "Personal Information": {
       "Name": [{
         "First name":"Michelle",
@@ -98,8 +98,8 @@
       "GPA":"3.80",
       "Student status":"full-time",
       "Date of initial enrollment":"September 2016",
-      "Graduation date":"May 2020"}},
-  "Robert Foreman 19742866":{
+      "Graduation date":"May 2020"}}},
+  {"Robert Foreman 19742866":{
     "Personal Information": {
       "Name": [{
         "First name":"Robert",
@@ -122,8 +122,8 @@
       "GPA":"3.55",
       "Student status":"withdrawn",
       "Date of initial enrollment":"September 2017",
-      "Graduation date":"December 2021"}},
-  "Elizabeth Johnson 19638469": {
+      "Graduation date":"December 2021"}}},
+  { "Elizabeth Johnson 19638469": {
     "Personal Information": {
       "Name": [{
         "First name":"Elizabeth",
@@ -146,8 +146,8 @@
       "GPA":"3.70",
       "Student status":"full-time",
       "Date of initial enrollment":"September 2016",
-      "Graduation date":"May 2020"}},
-  "Danielle Kincaid 19767998":  {
+      "Graduation date":"May 2020"}}},
+  {"Danielle Kincaid 19767998":  {
     "Personal Information": {
       "Name": [{
         "First name":"Danielle",
@@ -170,8 +170,8 @@
       "GPA":"4.00",
       "Student status":"full-time",
       "Date of initial enrollment": "September 2017",
-      "Graduation date":"May 2021"}},
-  "Richard Manning 19854366": {
+      "Graduation date":"May 2021"}}},
+  {"Richard Manning 19854366": {
     "Personal Information": {
       "Name": [{
         "First name":"Richard",
@@ -194,8 +194,8 @@
       "GPA":"3.67",
       "Student status":"full-time",
       "Date of initial enrollment":"September 2018",
-      "Graduation date":"May 2022"}},
-  "Richard Manning 19678245": {
+      "Graduation date":"May 2022"}}},
+  { "Richard Manning 19678245": {
     "Personal Information": {
       "Name": [{
         "First name":"Richard",
@@ -219,8 +219,8 @@
       "Student status":"Graduated",
       "Date of initial enrollment":"September 2016",
       "Graduation date":"May 2020"}
-  },
-  "Nancy Martinez 19793554":  {
+  }},
+  {"Nancy Martinez 19793554":  {
     "Personal Information": {
       "Name": [{
         "First name":"Nancy",
@@ -243,8 +243,8 @@
       "GPA":"3.90",
       "Student status":"part-time",
       "Date of initial enrollment":"September 2017",
-      "Graduation date":"May 2022"}},
-  "Robert Nicholas 19468536":  {
+      "Graduation date":"May 2022"}}},
+  {"Robert Nicholas 19468536":  {
     "Personal Information": {
       "Name": [{
         "First name":"Robert",
@@ -267,8 +267,8 @@
       "GPA":"3.80",
       "Student status": "full-time",
       "Date of initial enrollment":"September 2014",
-      "Graduation date": "May 2018"}},
-  "Anna Nichols 19682391":  {
+      "Graduation date": "May 2018"}}},
+  {"Anna Nichols 19682391":  {
     "Personal Information": {
       "Name": [{
         "First name":"Anna",
@@ -291,8 +291,8 @@
       "GPA":"3.79",
       "Student status":"full-time",
       "Date of initial enrollment":"September 2016",
-      "Graduation date":"May 2020"}},
-  "Victoria Peterson 19934526":  {
+      "Graduation date":"May 2020"}}},
+  {"Victoria Peterson 19934526":  {
     "Personal Information": {
       "Name": [{
         "First name":"Victoria",
@@ -315,8 +315,8 @@
       "GPA":"3.75",
       "Student status":"part-time",
       "Date of initial enrollment":"September 2019",
-      "Graduation date":"May 2024"}},
-  "Michael Phillips 19751648":  {
+      "Graduation date":"May 2024"}}},
+  {"Michael Phillips 19751648":  {
     "Personal Information": {
       "Name": [{
         "First name":"Michael",
@@ -339,8 +339,8 @@
       "GPA": "3.80",
       "Student status":"part-time",
       "Date of initial enrollment": "September 2017",
-      "Graduation date": "May 2023"}},
-  "Christopher Porter 19135569":  {
+      "Graduation date": "May 2023"}}},
+  {"Christopher Porter 19135569":  {
     "Personal Information": {
       "Name": [{
         "First name":"Christopher",
@@ -363,8 +363,8 @@
       "GPA":"3.80",
       "Student status":"withdrawn",
       "Date of initial enrollment": "September 2011",
-      "Graduation date": "May 2015"}},
-  "Christopher Porter 19564469": {
+      "Graduation date": "May 2015"}}},
+  {"Christopher Porter 19564469": {
     "Personal Information": {
       "Name": [{
         "First name": "Christopher",
@@ -388,8 +388,8 @@
       "Student status":"full-time",
       "Date of initial enrollment": "September 2015",
       "Graduation date": "May 2020"}
-  },
-  "Ryan Porter 19324896":  {
+  }},
+  {"Ryan Porter 19324896":  {
     "Personal Information": {
       "Name": [{
         "First name": "Ryan",
@@ -412,8 +412,8 @@
       "GPA":"3.80",
       "Student status":"graduated",
       "Date of initial enrollment":"September 2013",
-      "Graduation date": "May 2018"}},
-  "Veronica Potter 19761335": {
+      "Graduation date": "May 2018"}}},
+  {"Veronica Potter 19761335": {
     "Personal Information": {
       "Name": [{
         "First name":"Veronica",
@@ -437,8 +437,8 @@
       "Student status":"full-time",
       "Date of initial enrollment":"September 2017",
       "Graduation date":"May 2021"}
-  },
-  "Audrey Sanders 19783304": {
+  }},
+  {"Audrey Sanders 19783304": {
     "Personal Information": {
       "Name": [{
         "First name": "Audrey",
@@ -462,8 +462,8 @@
       "Student status":"part-time",
       "Date of initial enrollment":"September 2017",
       "Graduation date": "May 2021"}
-  },
-  "Abigail Stevens 19432416": {
+  }},
+  {"Abigail Stevens 19432416": {
     "Personal Information": {
       "Name": [{
         "First name":"Abigail",
@@ -487,8 +487,8 @@
       "Student status": "withdrawn",
       "Date of initial enrollment":"September 2014",
       "Graduation date":"May 2018"}
-  },
-  "Christopher Stevens 19742356": {
+  }},
+  { "Christopher Stevens 19742356": {
     "Personal Information" : {
       "Name" : [
         {
@@ -518,99 +518,97 @@
       "Date of initial enrollment" : "September 2017" ,
       "Graduation date" : "May 2022"
     }
-  },
-    "Rachel Van Joss 19853372" : {
-      "Personal Information" : {
-        "Name" : [
-          {
-            "First name" : "Rachel" ,
-            "Middle name" : "Alexandria" ,
-            "Last name" : "Van Joss" ,
-            "Preferred name" : "Rachel"
-          }
-        ] ,
-        "Phone" : "413-769-5532" ,
-        "Email" : "Rvanjoss@hartford.edu"
-      } ,
-      "School Information" : {
-        "Student ID" : "19853372" ,
-        "Curriculum" : [
-          {
-            "Major" : "Computer Engineering" ,
-            "Minor" : "Math"
-          }
-        ] ,
-        "Advisor" : "Professor Eppes"
-      } ,
-      "Graduation Status" : {
-        "Year" : "First-year" ,
-        "GPA" : "3.80" ,
-        "Student status" : "part-time" ,
-        "Date of initial enrollment" : "September 2018" ,
-        "Graduation date" : "May 2022"
-      }
+  }},
+  { "Rachel Van Joss 19853372" : {
+    "Personal Information" : {
+      "Name" : [
+        {
+          "First name" : "Rachel" ,
+          "Middle name" : "Alexandria" ,
+          "Last name" : "Van Joss" ,
+          "Preferred name" : "Rachel"
+        }
+      ] ,
+      "Phone" : "413-769-5532" ,
+      "Email" : "Rvanjoss@hartford.edu"
     } ,
-    "Peter Yong 19466998" : {
-      "Personal Information" : {
-        "Name" : [
-          {
-            "First name" : "Peter" ,
-            "Middle name" : "Xi" ,
-            "Last name" : "Yong" ,
-            "Preferred name" : "Peter"
-          }
-        ] ,
-        "Phone" : "203-796-3551" ,
-        "Email" : "Yong@hartford.edu"
-      } ,
-      "School Information" : {
-        "Student ID" : "19466998" ,
-        "Curriculum" : [
-          {
-            "Major" : "Computer Engineering" ,
-            "Minor" : "None"
-          }
-        ] ,
-        "Advisor" : "Professor Russell"
-      } ,
-      "Graduation Status" : {
-        "Year" : "Third-year" ,
-        "GPA" : "3.50" ,
-        "Student status" : "full-time" ,
-        "Advisor" : "Professor Yu" ,
-        "Date of initial enrollment" : "September 2014" ,
-        "Graduation date" : "May 2018"
-      }
+    "School Information" : {
+      "Student ID" : "19853372" ,
+      "Curriculum" : [
+        {
+          "Major" : "Computer Engineering" ,
+          "Minor" : "Math"
+        }
+      ] ,
+      "Advisor" : "Professor Eppes"
     } ,
-    "Declan Young 19463179" : {
-      "Personal Information" : {
-        "Name" : [
-          {
-            "First" : "Declan" ,
-            "Middle" : "Peter" ,
-            "Last" : "Young" ,
-            "Preferred" : "Declan"
-          }
-        ] ,
-        "Phone" : "203-446-1879" ,
-        "Email address" : "Dyoung@hartford.edu"
-      } ,
-      "School Information" : {
-        "Student ID" : "19463179" ,
-        "Curriculum" : [
-          {
-            "Major" : "Computer Science" ,
-            "Minor" : "None"
-          }
-        ] ,
-        "Advisor" : "Professor Becker"
-      } ,
-      "Graduation Status" : {
-        "Year" : "Second-year" ,
-        "GPA" : "3.90" ,
-        "Student status" : "full-time" ,
-        "Date of initial enrollment" : "September 2014" ,
-        "Graduation date" : "May 2018"
-      }
+    "Graduation Status" : {
+      "Year" : "First-year" ,
+      "GPA" : "3.80" ,
+      "Student status" : "part-time" ,
+      "Date of initial enrollment" : "September 2018" ,
+      "Graduation date" : "May 2022"
     }
-  }
+  }},
+  { "Peter Yong 19466998" : {
+    "Personal Information" : {
+      "Name" : [
+        {
+          "First name" : "Peter" ,
+          "Middle name" : "Xi" ,
+          "Last name" : "Yong" ,
+          "Preferred name" : "Peter"
+        }
+      ] ,
+      "Phone" : "203-796-3551" ,
+      "Email" : "Yong@hartford.edu"
+    } ,
+    "School Information" : {
+      "Student ID" : "19466998" ,
+      "Curriculum" : [
+        {
+          "Major" : "Computer Engineering" ,
+          "Minor" : "None"
+        }
+      ] ,
+      "Advisor" : "Professor Russell"
+    } ,
+    "Graduation Status" : {
+      "Year" : "Third-year" ,
+      "GPA" : "3.50" ,
+      "Student status" : "full-time" ,
+      "Advisor" : "Professor Yu" ,
+      "Date of initial enrollment" : "September 2014" ,
+      "Graduation date" : "May 2018"
+    }
+  } },
+  {"Declan Young 19463179" : {
+    "Personal Information" : {
+      "Name" : [
+        {
+          "First" : "Declan" ,
+          "Middle" : "Peter" ,
+          "Last" : "Young" ,
+          "Preferred" : "Declan"
+        }
+      ] ,
+      "Phone" : "203-446-1879" ,
+      "Email address" : "Dyoung@hartford.edu"
+    } ,
+    "School Information" : {
+      "Student ID" : "19463179" ,
+      "Curriculum" : [{
+          "Major" : "Computer Science" ,
+          "Minor" : "None"
+        }] ,
+      "Advisor" : "Professor Becker"
+    },
+    "Graduation Status" : {
+      "Year" : "Second-year" ,
+      "GPA" : "3.90",
+      "Student status" : "full-time" ,
+      "Date of initial enrollment" : "September 2014" ,
+      "Graduation date" : "May 2018"
+    }
+  }}
+]
