@@ -19,102 +19,102 @@
       {"Student 1":  {
         "Personal Information": {
           "Name": [{
-          "First":"",
-          "Middle":"",
-          "Last":"",
-          "Preferred":""
+          "First":"Jacob",
+          "Middle":"Ryan",
+          "Last":"Davidson",
+          "Preferred":"Jacob"
         }],
-        "Phone":"",
-        "Email address":""
+        "Phone":"2036487951",
+        "Email address":"Davidson@hartford.edu"
       },
       "School Information": {
-        "Student ID":"",
+        "Student ID":"19346872",
         "Curriculum": [{
-          "Major":"",
-          "Minor":""}],
-        "Advisor":""
+          "Major":"Computer Science",
+          "Minor":"None"}],
+        "Advisor":"Professor Rosiene"
       },
       "Graduation Status": {
-        "Year":"",
-        "GPA":"",
-        "Student status":"",
-        "Date of initial enrollment":"",
-        "Graduation date":""}
+        "Year":"Senior",
+        "GPA":"3.66",
+        "Student status":"full-time",
+        "Date of initial enrollment":"September 2013",
+        "Graduation date":"May 2017"}
     }
     },
       {"Student 2":  {
         "Personal Information": {
           "Name": [{
-            "First":"",
-            "Middle":"",
-            "Last":"",
-            "Preferred":""
+            "First":"Andrew",
+            "Middle":"Michael",
+            "Last":"Valentine",
+            "Preferred":"Andy"
           }],
-          "Phone":"",
-          "Email address":""
+          "Phone":"8607356644",
+          "Email address":"Valentine@hartford.edu"
         },
         "School Information": {
-          "Student ID":"",
+          "Student ID":"19672234",
           "Curriculum": [{
-            "Major":"",
-            "Minor":""}],
-          "Advisor":""
+            "Major":"Mathematics",
+            "Minor":"English"}],
+          "Advisor":"Professor Donald Knuth"
         },
         "Graduation Status": {
-          "Year":"",
-          "GPA":"",
-          "Student status":"",
-          "Date of initial enrollment":"",
-          "Graduation date":""}
+          "Year":"Junior",
+          "GPA":"3.85",
+          "Student status":"part-time",
+          "Date of initial enrollment":"September 2016",
+          "Graduation date":"May 2021"}
       }
       },
       {"Student 3":  {
       "Personal Information": {
         "Name": [{
-          "First":"",
-          "Middle":"",
-          "Last":"",
-          "Preferred":""
+          "First":"Thomas",
+          "Middle":"Joseph",
+          "Last":"Bradley",
+          "Preferred":"Tom"
         }],
-        "Phone":"",
-        "Email address":""
+        "Phone":"2037645467",
+        "Email address":"Tbradley@hartford.edu"
       },
       "School Information": {
-        "Student ID":"",
+        "Student ID":"19467965",
         "Curriculum": [{
-          "Major":"",
-          "Minor":""}],
-        "Advisor":""
+          "Major":"Vocal Performance",
+          "Minor":"None"}],
+        "Advisor":"Professor Andrews"
       },
       "Graduation Status": {
-        "Year":"",
-        "GPA":"",
-        "Student status":"",
-        "Date of initial enrollment":"",
-        "Graduation date":""}
+        "Year":"Freshman",
+        "GPA":"4.00",
+        "Student status":"full-time",
+        "Date of initial enrollment":"Sept 2014",
+        "Graduation date":"May 2018"}
     }
     },
       {"Student 4":  {
         "Personal Information": {
           "Name": [{
-            "First":"",
-            "Middle":"",
-            "Last":"",
-            "Preferred":""
+            "First":"John",
+            "Middle":"Victor",
+            "Last":"Robins",
+            "Preferred":"Jack"
           }],
-          "Phone":"",
-          "Email address":""
+          "Phone":"2038571093",
+          "Email address":"Jorobins@hartford.edu"
         },
         "School Information": {
-          "Student ID":"",
+          "Student ID":"19678843",
           "Curriculum": [{
-            "Major":"",
-            "Minor":""}],
+            "Major":"Mathematics",
+            "Minor":"Computer Science"}],
           "Advisor":""
         },
         "Graduation Status": {
           "Year":"",
-          "GPA":"",
+          "GPA":"3.50",
           "Student status":"",
           "Date of initial enrollment":"",
           "Graduation date":""}
@@ -140,7 +140,7 @@
         },
         "Graduation Status": {
           "Year":"",
-          "GPA":"",
+          "GPA":"3.60",
           "Student status":"",
           "Date of initial enrollment":"",
           "Graduation date":""}
@@ -166,7 +166,7 @@
         },
         "Graduation Status": {
           "Year":"",
-          "GPA":"",
+          "GPA":"3.75",
           "Student status":"",
           "Date of initial enrollment":"",
           "Graduation date":""}
@@ -191,7 +191,7 @@
           "Advisor":""
         },
         "Graduation Status": {
-          "Year":"",
+          "Year":"3.25",
           "GPA":"",
           "Student status":"",
           "Date of initial enrollment":"",
@@ -214,11 +214,11 @@
           "Curriculum": [{
             "Major":"",
             "Minor":""}],
-          "Advisor":""
+          "Advisor":"Professor Donald Knuth"
         },
         "Graduation Status": {
           "Year":"",
-          "GPA":"",
+          "GPA":"2.75",
           "Student status":"",
           "Date of initial enrollment":"",
           "Graduation date":""}
@@ -244,7 +244,7 @@
         },
         "Graduation Status": {
           "Year":"",
-          "GPA":"",
+          "GPA":"1.8",
           "Student status":"",
           "Date of initial enrollment":"",
           "Graduation date":""}
@@ -270,7 +270,7 @@
         },
         "Graduation Status": {
           "Year":"",
-          "GPA":"",
+          "GPA":"1.0",
           "Student status":"",
           "Date of initial enrollment":"",
           "Graduation date":""}
