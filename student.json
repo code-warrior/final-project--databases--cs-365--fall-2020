@@ -1,9 +1,7 @@
-{
-  "Directory" : {
-    "students" : [
+ [
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Henry" ,
               "middle" : "Peter" ,
@@ -15,7 +13,7 @@
           "email_Address" : "Collins@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19593544" ,
+          "student_ID" : 19593544 ,
           "curriculum" : [
             {
               "major" : "Computer Science" ,
@@ -26,7 +24,7 @@
         } ,
         "graduation_Status" : {
           "year" : "None" ,
-          "gpa" : "3.80" ,
+          "gpa" : 3.80,
           "student_Status" : "graduated" ,
           "date_of_Initial_Enrollment" : "September 2015" ,
           "graduation_Date" : "May 2019"
@@ -34,7 +32,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Mary" ,
               "middle" : "Nicole" ,
@@ -46,7 +44,7 @@
           "email_Address" : "Mdaniels@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19368854" ,
+          "student_ID" : 19368854 ,
           "curriculum" : [
             {
               "major" : "Computer Engineering" ,
@@ -57,7 +55,7 @@
         } ,
         "graduation_Status" : {
           "year" : "None" ,
-          "gpa" : "3.66" ,
+          "gpa" : 3.66 ,
           "student_Status" : "graduated" ,
           "date_of_Initial_Enrollment" : "September 2013" ,
           "graduation_Date" : "May 2017"
@@ -65,7 +63,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Maria" ,
               "middle" : "Christina" ,
@@ -77,7 +75,7 @@
           "email_Address" : "Mdavis@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19778028" ,
+          "student_ID" : 19778028,
           "curriculum" : [
             {
               "major" : "Computer Science" ,
@@ -88,7 +86,7 @@
         } ,
         "graduation_Status" : {
           "year" : "First-year" ,
-          "gpa" : "3.70" ,
+          "gpa" : 3.70 ,
           "student_Status" : "full-time" ,
           "date_of_Initial_Enrollment" : "September 2017" ,
           "graduation_Date" : "May 2021"
@@ -96,7 +94,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Michelle" ,
               "middle" : "Patricia" ,
@@ -108,7 +106,7 @@
           "email_Address" : "Miford@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19649173" ,
+          "student_ID" : 19649173 ,
           "curriculum" : [
             {
               "major" : "Computer Science" ,
@@ -119,7 +117,7 @@
         } ,
         "graduation_Status" : {
           "year" : "Second-year" ,
-          "gpa" : "3.80" ,
+          "gpa" : 3.80 ,
           "student_Status" : "full-time" ,
           "date_of_Initial_Enrollment" : "September 2016" ,
           "graduation_Date" : "May 2020"
@@ -127,7 +125,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Robert" ,
               "middle" : "Michael" ,
@@ -139,7 +137,7 @@
           "email_Address" : "Foreman@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19742866" ,
+          "student_ID" : 19742866 ,
           "curriculum" : [
             {
               "major" : "Computer Engineering" ,
@@ -150,7 +148,7 @@
         } ,
         "graduation_Status" : {
           "year" : "Fourth-year" ,
-          "gpa" : "3.55" ,
+          "gpa" : 3.55 ,
           "student_Status" : "withdrawn" ,
           "date_of_Initial_Enrollment" : "September 2017" ,
           "graduation_Date" : "December 2021"
@@ -158,7 +156,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Elizabeth" ,
               "middle" : "Jane" ,
@@ -170,7 +168,7 @@
           "email_Address" : "Johnson@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19638469" ,
+          "student_ID" : 19638469,
           "curriculum" : [
             {
               "major" : "Computer Science" ,
@@ -181,7 +179,7 @@
         } ,
         "graduation_Status" : {
           "year" : "Second-year" ,
-          "gpa" : "3.70" ,
+          "gpa" : 3.70 ,
           "student_Status" : "full-time" ,
           "date_of_Initial_Enrollment" : "September 2016" ,
           "graduation_Date" : "May 2020"
@@ -189,7 +187,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Danielle" ,
               "middle" : "Barbara" ,
@@ -201,7 +199,7 @@
           "email_Address" : "Kincaid@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19767998" ,
+          "student_ID" : 19767998 ,
           "curriculum" : [
             {
               "major" : "Computer Engineering" ,
@@ -212,7 +210,7 @@
         } ,
         "graduation_Status" : {
           "year" : "First-year" ,
-          "gpa" : "4.00" ,
+          "gpa" : 4.00 ,
           "student_Status" : "full-time" ,
           "date_of_Initial_Enrollment" : "September 2017" ,
           "graduation_Date" : "May 2021"
@@ -220,7 +218,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Richard" ,
               "middle" : "David" ,
@@ -232,7 +230,7 @@
           "email_Address" : "Rimann@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19854366" ,
+          "student_ID" : 19854366 ,
           "curriculum" : [
             {
               "major" : "Computer Science" ,
@@ -243,7 +241,7 @@
         } ,
         "graduation_Status" : {
           "year" : "Second-year" ,
-          "gpa" : "3.67" ,
+          "gpa" : 3.67 ,
           "student_Status" : "full-time" ,
           "date_of_Initial_Enrollment" : "September 2018" ,
           "graduation_Date" : "May 2022"
@@ -251,7 +249,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Richard" ,
               "middle" : "James" ,
@@ -263,7 +261,7 @@
           "email_Address" : "Rmanning@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19678245" ,
+          "student_ID" : 19678245 ,
           "curriculum" : [
             {
               "major" : "Computer Science" ,
@@ -274,7 +272,7 @@
         } ,
         "graduation_Status" : {
           "year" : "None" ,
-          "gpa" : "3.85" ,
+          "gpa" : 3.85 ,
           "student_Status" : "Graduated" ,
           "date_of_Initial_Enrollment" : "September 2016" ,
           "graduation_Date" : "May 2020"
@@ -282,7 +280,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Nancy" ,
               "middle" : "Leslie" ,
@@ -294,7 +292,7 @@
           "email_Address" : "Nmartinez@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19793554" ,
+          "student_ID" : 19793554 ,
           "curriculum" : [
             {
               "major" : "Computer Engineering" ,
@@ -305,7 +303,7 @@
         } ,
         "graduation_Status" : {
           "year" : "First-year" ,
-          "gpa" : "3.90" ,
+          "gpa" : 3.90 ,
           "student_Status" : "part-time" ,
           "date_of_Initial_Enrollment" : "September 2017" ,
           "graduation_Date" : "May 2022"
@@ -313,7 +311,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Robert" ,
               "middle" : "James" ,
@@ -325,7 +323,7 @@
           "email_Address" : "Rnicholas@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19468536" ,
+          "student_ID" : 19468536,
           "curriculum" : [
             {
               "major" : "Computer Engineering" ,
@@ -336,7 +334,7 @@
         } ,
         "graduation_Status" : {
           "year" : "First-year" ,
-          "gpa" : "3.80" ,
+          "gpa" : 3.80,
           "student_Status" : "full-time" ,
           "date_of_Initial_Enrollment" : "September 2014" ,
           "graduation_Date" : "May 2018"
@@ -344,7 +342,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Anna" ,
               "middle" : "Charlotte" ,
@@ -356,7 +354,7 @@
           "email_Address" : "Anichols@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19682391" ,
+          "student_ID" : 19682391 ,
           "curriculum" : [
             {
               "major" : "Computer Science" ,
@@ -367,7 +365,7 @@
         } ,
         "graduation_Status" : {
           "year" : "Third-year" ,
-          "gpa" : "3.79" ,
+          "gpa" : 3.79 ,
           "student_Status" : "full-time" ,
           "date_of_Initial_Enrollment" : "September 2016" ,
           "graduation_Date" : "May 2020"
@@ -375,7 +373,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Victoria" ,
               "middle" : "Michelle" ,
@@ -387,7 +385,7 @@
           "email_Address" : "Peterson@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19934526" ,
+          "student_ID" : 19934526 ,
           "curriculum" : [
             {
               "major" : "Computer Engineering" ,
@@ -398,7 +396,7 @@
         } ,
         "graduation_Status" : {
           "year" : "Third-year" ,
-          "gpa" : "3.75" ,
+          "gpa" : 3.75 ,
           "student_Status" : "part-time" ,
           "date_of_Initial_Enrollment" : "September 2019" ,
           "graduation_Date" : "May 2024"
@@ -406,7 +404,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Michael" ,
               "middle" : "Robert" ,
@@ -418,7 +416,7 @@
           "email_Address" : "Mphillips@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19751648" ,
+          "student_ID" : 19751648 ,
           "curriculum" : [
             {
               "major" : "Computer Engineering" ,
@@ -429,7 +427,7 @@
         } ,
         "graduation_Status" : {
           "year" : "First-year" ,
-          "gpa" : "3.80" ,
+          "gpa" : 3.80 ,
           "student_Status" : "part-time" ,
           "date_of_Initial_Enrollment" : "September 2017" ,
           "graduation_Date" : "May 2023"
@@ -437,7 +435,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Christopher" ,
               "middle" : "Brian" ,
@@ -449,7 +447,7 @@
           "email_Address" : "Chporter@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19135569" ,
+          "student_ID" : 19135569 ,
           "curriculum" : [
             {
               "major" : "Computer Engineering" ,
@@ -460,7 +458,7 @@
         } ,
         "graduation_Status" : {
           "year" : "First-year" ,
-          "gpa" : "3.80" ,
+          "gpa" : 3.80 ,
           "student_Status" : "withdrawn" ,
           "date_of_Initial_Enrollment" : "September 2011" ,
           "graduation_Date" : "May 2015"
@@ -468,7 +466,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Christopher" ,
               "middle" : "Steven" ,
@@ -480,7 +478,7 @@
           "email_Address" : "Cporter@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19564469" ,
+          "student_ID" : 19564469 ,
           "curriculum" : [
             {
               "major" : "Computer Engineering" ,
@@ -491,7 +489,7 @@
         } ,
         "graduation_Status" : {
           "year" : "First-year" ,
-          "gpa" : "3.70" ,
+          "gpa" : 3.70 ,
           "student_Status" : "full-time" ,
           "date_of_Initial_Enrollment" : "September 2015" ,
           "graduation_Date" : "May 2020"
@@ -499,7 +497,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Ryan" ,
               "middle" : "Michael" ,
@@ -511,7 +509,7 @@
           "email_Address" : "Rporter@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19324896" ,
+          "student_ID" : 19324896 ,
           "curriculum" : [
             {
               "major" : "Computer Science" ,
@@ -522,7 +520,7 @@
         } ,
         "graduation_Status" : {
           "year" : "None" ,
-          "gpa" : "3.80" ,
+          "gpa" : 3.80 ,
           "student_Status" : "graduated" ,
           "date_of_Initial_Enrollment" : "September 2013" ,
           "graduation_Date" : "May 2018"
@@ -530,7 +528,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Veronica" ,
               "middle" : "Christina" ,
@@ -542,7 +540,7 @@
           "email_Address" : "Vepotter@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19761335" ,
+          "student_ID" : 19761335 ,
           "curriculum" : [
             {
               "major" : "Computer Science" ,
@@ -553,7 +551,7 @@
         } ,
         "graduation_Status" : {
           "year" : "First-year" ,
-          "gpa" : "3.90" ,
+          "gpa" : 3.90 ,
           "student_Status" : "full-time" ,
           "date_of_Initial_Enrollment" : "September 2017" ,
           "graduation_Date" : "May 2021"
@@ -561,7 +559,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Audrey" ,
               "middle" : "Katherine" ,
@@ -573,7 +571,7 @@
           "email_Address" : "Asanders@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19783304" ,
+          "student_ID" : 19783304 ,
           "curriculum" : [
             {
               "major" : "Computer Science" ,
@@ -584,7 +582,7 @@
         } ,
         "graduation_Status" : {
           "year" : "First-year" ,
-          "gpa" : "3.30" ,
+          "gpa" : 3.30 ,
           "student_Status" : "part-time" ,
           "date_of_Initial_Enrollment" : "September 2017" ,
           "graduation_Date" : "May 2021"
@@ -592,7 +590,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Abigail" ,
               "middle" : "Elizabeth" ,
@@ -604,7 +602,7 @@
           "email_Address" : "Astevens@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19432416" ,
+          "student_ID" : 19432416 ,
           "curriculum" : [
             {
               "major" : "Computer Science" ,
@@ -615,7 +613,7 @@
         } ,
         "graduation_Status" : {
           "year" : "Fourth-year" ,
-          "gpa" : "3.85" ,
+          "gpa" : 3.85 ,
           "student_Status" : "withdrawn" ,
           "date_of_Initial_Enrollment" : "September 2014" ,
           "graduation_Date" : "May 2018"
@@ -623,7 +621,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Christopher" ,
               "middle" : "Robert" ,
@@ -635,7 +633,7 @@
           "email_Address" : "Cstevens@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19742356" ,
+          "student_ID" : 19742356 ,
           "curriculum" : [
             {
               "major" : "Computer Engineering" ,
@@ -646,7 +644,7 @@
         } ,
         "graduation_Status" : {
           "year" : "First-year" ,
-          "gpa" : "3.80" ,
+          "gpa" : 3.80 ,
           "student_Status" : "full-time" ,
           "date_of_Initial_Enrollment" : "September 2017" ,
           "graduation_Date" : "May 2022"
@@ -654,7 +652,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Rachel" ,
               "middle" : "Alexandria" ,
@@ -666,7 +664,7 @@
           "email_Address" : "Rvanjoss@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19853372" ,
+          "student_ID" : 19853372,
           "curriculum" : [
             {
               "major" : "Computer Engineering" ,
@@ -677,7 +675,7 @@
         } ,
         "graduation_Status" : {
           "year" : "First-year" ,
-          "gpa" : "3.80" ,
+          "gpa" : 3.80 ,
           "student_Status" : "part-time" ,
           "date_of_Initial_Enrollment" : "September 2018" ,
           "graduation_Date" : "May 2022"
@@ -685,7 +683,7 @@
       } ,
       {
         "personal_Information" : {
-          "Name" : [
+          "name" : [
             {
               "first" : "Peter" ,
               "middle" : "Xi" ,
@@ -697,7 +695,7 @@
           "email_Address" : "Yong@hartford.edu"
         } ,
         "school_Information" : {
-          "student_ID" : "19466998" ,
+          "student_ID" : 19466998 ,
           "curriculum" : [
             {
               "major" : "Computer Engineering" ,
@@ -708,43 +706,41 @@
         } ,
         "graduation_Status" : {
           "year" : "Third-year" ,
-          "gpa" : "3.50" ,
+          "gpa" : 3.50 ,
           "student_Status" : "full-time" ,
           "date_of_Initial_Enrollment" : "September 2014" ,
           "graduation_Date" : "May 2018"
         }
       } ,
-      {
-        "personal_Information" : {
-          "Name" : [
-            {
-              "first" : "Declan" ,
-              "middle" : "Peter" ,
-              "last" : "Young" ,
-              "preferred" : "Declan"
-            }
-          ] ,
-          "phone" : "203-446-1879" ,
-          "email_Address" : "Dyoung@hartford.edu"
-        } ,
-        "school_Information" : {
-          "student_ID" : "19463179" ,
-          "curriculum" : [
-            {
-              "major" : "Computer Science" ,
-              "minor" : "None"
-            }
-          ] ,
-          "advisor" : "Professor Becker"
-        } ,
-        "graduation_Status" : {
-          "year" : "Second-year" ,
-          "gpa" : "3.90" ,
-          "student_Status" : "full-time" ,
-          "date_of_Initial_Enrollment" : "September 2014" ,
-          "graduation_Date" : "May 2018"
-        }
-      }
-    ]
-  }
-}
+   {
+     "personal_Information" : {
+       "name" : [
+         {
+           "first" : "Declan" ,
+           "middle" : "Peter" ,
+           "last" : "Young" ,
+           "preferred" : "Declan"
+         }
+       ] ,
+       "phone" : "203-446-1879" ,
+       "email_Address" : "Dyoung@hartford.edu"
+     } ,
+     "school_Information" : {
+       "student_ID" : 19463179 ,
+       "curriculum" : [
+         {
+           "major" : "Computer Science" ,
+           "minor" : "None"
+         }
+       ] ,
+       "advisor" : "Professor Becker"
+     } ,
+     "graduation_Status" : {
+       "year" : "Second-year" ,
+       "gpa" : 3.90 ,
+       "student_Status" : "full-time" ,
+       "date_of_Initial_Enrollment" : "September 2014" ,
+       "graduation_Date" : "May 2018"
+     }
+   }
+ ]
