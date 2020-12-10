@@ -244,10 +244,10 @@
     }
   ],
     "Instruction 2 Code - Retrieve all the info from students with a GPA greater than 3.5": [{
-      "db.collection.find()": "{'graduation_Status.gpa': {'$gt':'3.50'}}"}],
+      "db.studentdirectory.find()": "{'graduation_Status.gpa': {'$gt':'3.50'}}"}],
     "Instruction 3 Code - Update the status of the student advised by Donald Knuth with the highest GPA to 'graduated'": [{
-      "db.collection.update()": "{$and:[{'school_Information.advisor':'Professor Donald Knuth','graduation_Status.gpa': {'$gt':'3.50'}}], $set{'graduation_Status.student_Status':'graduated'}}"}],
+      "db.studentdirectory.update()": "{$and:[{'school_Information.advisor':'Professor Donald Knuth','graduation_Status.gpa': {'$gt':'3.50'}}], $set{'graduation_Status.student_Status':'graduated'}}"}],
     "Instruction 4 Code - Update the status of the student with the lowest GPA to 'withdrawn'": [{
-      "db.collection.update()": "{$and:[{'school_Information.advisor':'Professor Donald Knuth','graduation_Status.gpa': {'$lt':'3.50'}}], $set{'graduation_Status.student_Status':'withdrawn'}}"}]
+      "db.studentdirectory.update()": "{$and:[{'school_Information.advisor':'Professor Donald Knuth','graduation_Status.gpa': {'$lt':'3.50'}}], $set{'graduation_Status.student_Status':'withdrawn'}}"}]
   }
 }
