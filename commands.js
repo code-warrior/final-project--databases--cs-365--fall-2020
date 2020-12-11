@@ -1,6 +1,7 @@
-function insertIntoDatabase(){
+let db;
+let studentdirectory;
 db.studentdirectory.insert([
-    {"personal_Information" {
+    {"personal_Information" :{
             "name": [{
                 "first": "Jacob",
                 "middle": "Ryan",
@@ -240,17 +241,7 @@ db.studentdirectory.insert([
             "date_of_Initial_Enrollment": "Sept 2018",
             "graduation_date": "May 2023"}
     }
-])
-    }
-function findStudents(){db.studentdirectory.find({'graduation_Status.gpa': {'$gt':'3.50'}})},
-function updateHighestGPAStudent(){db.studentdirectory.update($and: [{'school_Information.advisor':'Professor Donald Knuth','graduation_Status.gpa': {'$gt':'3.50'}}], $set{'graduation_Status.student_Status':'graduated'}})},
-function updateLowestGPAStudent(){db.studentdirectory.update({$and: [{'school_Information.advisor':'Professor Donald Knuth','graduation_Status.gpa': {'$lt':'3.50'}}], $set{'graduation_Status.student_Status':'withdrawn'}})}
-    "Requirements": {
-    "Instruction 1 Code - Populate the database with 10 students as follows - 5 students should have a GPA greater than 3.5 - The remaining students should have a GPA between 1.0 and 3.5, inclusive - At least 2 students should have an advisor named Donald Knuth -the remaining students can have anyone as an advisor - One of Donald Knuth’s students must have a GPA greater than 3.5 - No one should be withdrawn":,
-        "Instruction 2 Code - Retrieve all the info from students with a GPA greater than 3.5": [{
-        }],
-        "Instruction 3 Code - Update the status of the student advised by Donald Knuth with the highest GPA to 'graduated'": [{
-        }],
-        "Instruction 4 Code - Update the status of the student with the lowest GPA to 'withdrawn'": [{
-        "db.collection.update()": ""}]
-}
+]);
+db.studentdirectory.find({"graduation_Status.gpa": {"$gt":"3.50"}});
+db.studentdirectory.update({"$and": [{"school_Information.advisor":"Professor Donald Knuth","graduation_Status.gpa": {"$gt":"3.50"}}], "$set":{"graduation_Status.student_Status":"graduated"}});
+db.studentdirectory.update({"$and": [{"school_Information.advisor":"Professor Donald Knuth","graduation_Status.gpa": {"$lt":"3.50"}}], "$set":{"graduation_Status.student_Status":"withdrawn"}});
