@@ -21,7 +21,7 @@ db.studentsCollection.insert([
         },
         "studentInfo": {
             "dateEnroll": "07/2017",
-            "year": "3",
+            "year": "4",
             "gpa": "3.6",
             "major": ["Business"],
             "minor": [],
@@ -67,174 +67,174 @@ db.studentsCollection.insert([
         },
         "studentInfo": {
             "dateEnroll": "05/2018",
-            "year": "",
-            "gpa": "",
-            "major": [""],
-            "minor": [""],
-            "status": "",
-            "advisor": "",
-            "graduationDate": ""
+            "year": "3",
+            "gpa": "3.8",
+            "major": ["Computer Science"],
+            "minor": ["MMD"],
+            "status": "Full-Time",
+            "advisor": "Dr. Bill Walsh",
+            "graduationDate": "05/2022"
         }
     },
     {
         "id": "3",
         "name": {
-            "first": "",
-            "middle": "",
-            "last": "",
-            "preferred": ""
+            "first": "Lucas",
+            "middle": "William",
+            "last": "Peterson",
+            "preferred": "Luke"
         },
         "contactInfo": {
-            "email": [""],
-            "phoneNumber": ""
+            "email": ["LPeterson@school.edu"],
+            "phoneNumber": "800-987-6543"
         },
         "studentInfo": {
-            "dateEnroll": "",
-            "year": "",
-            "gpa": "",
-            "major": [""],
-            "minor": [""],
-            "status": "",
-            "advisor": "",
-            "graduationDate": ""
+            "dateEnroll": "05/2019",
+            "year": "2",
+            "gpa": "1.5",
+            "major": ["Math"],
+            "minor": ["Education"],
+            "status": "Full-Time",
+            "advisor": "Katherine Lears",
+            "graduationDate": "05/2023"
         }
     },
     {
         "id": "4",
         "name": {
-            "first": "",
-            "middle": "",
-            "last": "",
-            "preferred": ""
+            "first": "Kim",
+            "middle": "Rachel",
+            "last": "Park",
+            "preferred": "Kim"
         },
         "contactInfo": {
-            "email": [""],
-            "phoneNumber": ""
+            "email": ["KPark@school.edu"],
+            "phoneNumber": "800-191-9191"
         },
         "studentInfo": {
-            "dateEnroll": "",
-            "year": "",
-            "gpa": "",
-            "major": [""],
-            "minor": [""],
-            "status": "",
-            "advisor": "",
-            "graduationDate": ""
+            "dateEnroll": "06/2012",
+            "year": "0",
+            "gpa": "3.6",
+            "major": ["Accounting"],
+            "minor": [],
+            "status": "Graduated",
+            "advisor": "Dr. Katie Larson",
+            "graduationDate": "05/2016"
         }
     },
     {
         "id": "5",
         "name": {
-            "first": "",
-            "middle": "",
-            "last": "",
-            "preferred": ""
+            "first": "Melissa",
+            "middle": "Jean",
+            "last": "Scott",
+            "preferred": "MJ"
         },
         "contactInfo": {
-            "email": [""],
-            "phoneNumber": ""
+            "email": ["MJScott"],
+            "phoneNumber": "800-000-0000"
         },
         "studentInfo": {
-            "dateEnroll": "",
-            "year": "",
-            "gpa": "",
-            "major": [""],
-            "minor": [""],
-            "status": "",
-            "advisor": "",
-            "graduationDate": ""
+            "dateEnroll": "07/2020",
+            "year": "1",
+            "gpa": "2.2",
+            "major": ["Computer Science"],
+            "minor": [],
+            "status": "Part-Time",
+            "advisor": "Donald Knuth",
+            "graduationDate": "05/2024"
         }
     },
     {
         "id": "6",
         "name": {
-            "first": "",
-            "middle": "",
-            "last": "",
-            "preferred": ""
+            "first": "Iris",
+            "middle": "Kaiser",
+            "last": "Celine",
+            "preferred": "Iris"
         },
         "contactInfo": {
-            "email": [""],
-            "phoneNumber": ""
+            "email": ["ICeline@school.edu"],
+            "phoneNumber": "800-223-3344"
         },
         "studentInfo": {
-            "dateEnroll": "",
-            "year": "",
-            "gpa": "",
-            "major": [""],
-            "minor": [""],
-            "status": "",
-            "advisor": "",
-            "graduationDate": ""
+            "dateEnroll": "04/2017",
+            "year": "4",
+            "gpa": "4.0",
+            "major": ["Mechanical Engineering"],
+            "minor": [],
+            "status": "Full-Time",
+            "advisor": "Donald Knuth",
+            "graduationDate": "05/2021"
         }
     },
     {
         "id": "7",
         "name": {
-            "first": "",
-            "middle": "",
-            "last": "",
-            "preferred": ""
+            "first": "Richard",
+            "middle": "Lewis",
+            "last": "Perkins",
+            "preferred": "Rich"
         },
         "contactInfo": {
-            "email": [""],
-            "phoneNumber": ""
+            "email": ["RPerkins@school.edu"],
+            "phoneNumber": "800-159-7530"
         },
         "studentInfo": {
-            "dateEnroll": "",
-            "year": "",
-            "gpa": "",
-            "major": [""],
-            "minor": [""],
-            "status": "",
-            "advisor": "",
-            "graduationDate": ""
+            "dateEnroll": "06/2019",
+            "year": "2",
+            "gpa": "3.1",
+            "major": ["Pre-Med"],
+            "minor": ["Biology"],
+            "status": "Full-Time",
+            "advisor": "Dr. Katie Larson",
+            "graduationDate": "05/2023"
         }
     },
     {
         "id": "8",
         "name": {
-            "first": "",
-            "middle": "",
-            "last": "",
-            "preferred": ""
+            "first": "Samantha",
+            "middle": "Sera",
+            "last": "Shields",
+            "preferred": "Sammy"
         },
         "contactInfo": {
-            "email": [""],
-            "phoneNumber": ""
+            "email": ["SShields@school.edu"],
+            "phoneNumber": "800-800-8000"
         },
         "studentInfo": {
-            "dateEnroll": "",
-            "year": "",
-            "gpa": "",
-            "major": [""],
-            "minor": [""],
-            "status": "",
-            "advisor": "",
-            "graduationDate": ""
+            "dateEnroll": "05/2013",
+            "year": "0",
+            "gpa": "3.7",
+            "major": ["Architecture"],
+            "minor": ["History"],
+            "status": "Graduated",
+            "advisor": "Laurence Wells",
+            "graduationDate": "05/2018"
         }
     },
     {
         "id": "9",
         "name": {
-            "first": "",
-            "middle": "",
-            "last": "",
-            "preferred": ""
+            "first": "Carlos",
+            "middle": "Enrique",
+            "last": "Suarez",
+            "preferred": "Carlos"
         },
         "contactInfo": {
-            "email": [""],
-            "phoneNumber": ""
+            "email": ["CSuarez@school.edu"],
+            "phoneNumber": "800-852-4569"
         },
         "studentInfo": {
-            "dateEnroll": "",
-            "year": "",
-            "gpa": "",
-            "major": [""],
-            "minor": [""],
-            "status": "",
-            "advisor": "",
-            "graduationDate": ""
+            "dateEnroll": "04/2017",
+            "year": "4",
+            "gpa": "3.1",
+            "major": ["Systems Engineering"],
+            "minor": [],
+            "status": "Part-Time",
+            "advisor": "Dr. Bill Walsh",
+            "graduationDate": "05/2021"
         }
     },
 ])
