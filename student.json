@@ -1,20 +1,20 @@
  [{
         "personalInformation": {
-          "name": [{
+          "name": {
               "first": "Henry",
               "middle": "Peter",
               "last": "Collins",
               "preferred": "Henry"
-            }],
+            },
           "phone": "413-668-5774",
           "emailAddress": "Collins@hartford.edu"
         },
         "schoolInformation": {
           "studentID": 19593544,
-          "curriculum": [{
-              "major": "Computer Science",
-              "minor": "Math"
-            }],
+          "curriculum": {
+              "major": ["Computer Science","Music"],
+              "minor": ["Math","Economics"]
+            },
           "advisor": "Professor Russell"
         },
         "graduationStatus": {
