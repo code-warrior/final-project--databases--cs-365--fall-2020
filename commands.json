@@ -236,5 +236,17 @@ db.studentsCollection.insert([
             "advisor": "Dr. Bill Walsh",
             "graduationDate": "05/2021"
         }
-    },
+    }
 ])
+
+//Retrieve all the info from students with GPA greater than 3.5
+db.studentsCollection.find({"studentInfo.gpa": {$gt: "3.5"}}).pretty()
+
+//Update the status of the student advised by Donald Knuth with the hightst GPA to "Graduated"
+db.studentsCollection.findAndModify({query: {"studentInfo.advisor": "Donald Knuth"}, sort: {"studentInfo.gpa": -1}, update: {$set: {"studentInfo.status": "Graduated"}}})
+
+//Update the status of the student with the lowest GPA to “withdrawn”
+db.studentsCollection.findAndModify({sort: {"studentInfo.gpa": 1}, update: {$set: {"studentInfo.status": "Withdrawn"}}})
+
+//Dump database to dump folder
+mongodump.exe --db roster --out C:\Users\tpark\OneDrive\Documents\GitHub\final-project--databases--cs-365--fall-2020\dump
