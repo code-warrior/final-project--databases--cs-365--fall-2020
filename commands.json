@@ -6,3 +6,235 @@ use roster //place focus on roster database, then drop database, then recreate a
 
 db.createCollection(`studentsCollection`)
 
+db.studentsCollection.insert([
+    {
+        "id": "0",
+        "name": {
+            "first": "Elizabeth",
+            "middle": "Rose",
+            "last": "Smith",
+            "preferred": "Liz"
+        },
+        "contactInfo": {
+            "email": ["ERSmith@school.edu"],
+            "phoneNumber": "800-999-9999"
+        },
+        "studentInfo": {
+            "dateEnroll": "07/2017",
+            "year": "3",
+            "gpa": "3.6",
+            "major": ["Business"],
+            "minor": [],
+            "status": "Full-Time",
+            "advisor": "Dr. Bill Walsh",
+            "graduationDate": "05/2021"
+        }
+    },
+    {
+        "id": "1",
+        "name": {
+            "first": "Elizabeth",
+            "middle": "Lynn",
+            "last": "Smith",
+            "preferred": "Beth"
+        },
+        "contactInfo": {
+            "email": ["ELSmith@school.edu"],
+            "phoneNumber": "800-123-4567"
+        },
+        "studentInfo": {
+            "dateEnroll": "06/2020",
+            "year": "1",
+            "gpa": "2.9",
+            "major": ["Psychology", "Criminal Justice"],
+            "minor": ["Sociology"],
+            "status": "Part-Time",
+            "advisor": "Donald Knuth",
+            "graduationDate": "05/2024"
+        }
+    },
+    {
+        "id": "2",
+        "name": {
+            "first": "James",
+            "middle": "Edward",
+            "last": "Jones",
+            "preferred": "James"
+        },
+        "contactInfo": {
+            "email": ["JJones@school.edu"],
+            "phoneNumber": "800-111-2222"
+        },
+        "studentInfo": {
+            "dateEnroll": "05/2018",
+            "year": "",
+            "gpa": "",
+            "major": [""],
+            "minor": [""],
+            "status": "",
+            "advisor": "",
+            "graduationDate": ""
+        }
+    },
+    {
+        "id": "3",
+        "name": {
+            "first": "",
+            "middle": "",
+            "last": "",
+            "preferred": ""
+        },
+        "contactInfo": {
+            "email": [""],
+            "phoneNumber": ""
+        },
+        "studentInfo": {
+            "dateEnroll": "",
+            "year": "",
+            "gpa": "",
+            "major": [""],
+            "minor": [""],
+            "status": "",
+            "advisor": "",
+            "graduationDate": ""
+        }
+    },
+    {
+        "id": "4",
+        "name": {
+            "first": "",
+            "middle": "",
+            "last": "",
+            "preferred": ""
+        },
+        "contactInfo": {
+            "email": [""],
+            "phoneNumber": ""
+        },
+        "studentInfo": {
+            "dateEnroll": "",
+            "year": "",
+            "gpa": "",
+            "major": [""],
+            "minor": [""],
+            "status": "",
+            "advisor": "",
+            "graduationDate": ""
+        }
+    },
+    {
+        "id": "5",
+        "name": {
+            "first": "",
+            "middle": "",
+            "last": "",
+            "preferred": ""
+        },
+        "contactInfo": {
+            "email": [""],
+            "phoneNumber": ""
+        },
+        "studentInfo": {
+            "dateEnroll": "",
+            "year": "",
+            "gpa": "",
+            "major": [""],
+            "minor": [""],
+            "status": "",
+            "advisor": "",
+            "graduationDate": ""
+        }
+    },
+    {
+        "id": "6",
+        "name": {
+            "first": "",
+            "middle": "",
+            "last": "",
+            "preferred": ""
+        },
+        "contactInfo": {
+            "email": [""],
+            "phoneNumber": ""
+        },
+        "studentInfo": {
+            "dateEnroll": "",
+            "year": "",
+            "gpa": "",
+            "major": [""],
+            "minor": [""],
+            "status": "",
+            "advisor": "",
+            "graduationDate": ""
+        }
+    },
+    {
+        "id": "7",
+        "name": {
+            "first": "",
+            "middle": "",
+            "last": "",
+            "preferred": ""
+        },
+        "contactInfo": {
+            "email": [""],
+            "phoneNumber": ""
+        },
+        "studentInfo": {
+            "dateEnroll": "",
+            "year": "",
+            "gpa": "",
+            "major": [""],
+            "minor": [""],
+            "status": "",
+            "advisor": "",
+            "graduationDate": ""
+        }
+    },
+    {
+        "id": "8",
+        "name": {
+            "first": "",
+            "middle": "",
+            "last": "",
+            "preferred": ""
+        },
+        "contactInfo": {
+            "email": [""],
+            "phoneNumber": ""
+        },
+        "studentInfo": {
+            "dateEnroll": "",
+            "year": "",
+            "gpa": "",
+            "major": [""],
+            "minor": [""],
+            "status": "",
+            "advisor": "",
+            "graduationDate": ""
+        }
+    },
+    {
+        "id": "9",
+        "name": {
+            "first": "",
+            "middle": "",
+            "last": "",
+            "preferred": ""
+        },
+        "contactInfo": {
+            "email": [""],
+            "phoneNumber": ""
+        },
+        "studentInfo": {
+            "dateEnroll": "",
+            "year": "",
+            "gpa": "",
+            "major": [""],
+            "minor": [""],
+            "status": "",
+            "advisor": "",
+            "graduationDate": ""
+        }
+    },
+])
