@@ -1,0 +1,8 @@
+use roster
+
+db.dropDatabase()
+
+use roster //place focus on roster database, then drop database, then recreate as empty database. similar to drop if exists. unsure if necessary
+
+db.createCollection(`studentsCollection`)
+
