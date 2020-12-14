@@ -1,0 +1,219 @@
+use universityOfX
+db.createCollection('studentsInfo')
+
+db.studentsInfo.insertMany([
+  {
+    "name": {
+      "first": "Rick",
+      "middle": "Brown",
+      "last": "Sanchez",
+      "preferred": "Rick"
+    },
+    "contact_info": {
+      "email": "rsanchez@uni.edu",
+      "phone": "6063029041"
+    },
+    "academic_record": {
+      "year": "third",
+      "gpa": 3.95,
+      "major": "aerospace engineering",
+      "minor": "math",
+      "status": "full-time",
+      "advisor": "Justin Roiland",
+      "enrollment_date": "2018",
+      "graduation_date": "2022"
+    }
+  },
+  {
+    "name": {
+      "first": "Rick",
+      "middle": "Marty",
+      "last": "Sanchez",
+      "preferred": "Ricky"
+    },
+    "contact_info": {
+      "email": "ricks@uni.edu",
+      "phone": "3059027412"
+    },
+    "academic_record": {
+      "year": "second",
+      "gpa": 3.14,
+      "major": "Journalism",
+      "minor": "psychology",
+      "status": "full-time",
+      "advisor": "Peter Raymond",
+      "enrollment_date": "2019",
+      "graduation_date": "2023"
+    }
+  },
+  {
+    "name": {
+      "first": "Ed",
+      "middle": "Lee",
+      "last": "Bob",
+      "preferred": "Edy"
+    },
+    "contact_info": {
+      "email": "edb@uni.edu",
+      "phone": "7287106721"
+    },
+    "academic_record": {
+      "year": "fourth",
+      "gpa": 3.85,
+      "major": "computer engineering",
+      "minor": "math",
+      "status": "full-time",
+      "advisor": "Donald Knuth",
+      "enrollment_date": "2017",
+      "graduation_date": "2021"
+    }
+  },
+  {
+    "name": {
+      "first": "Sam",
+      "middle": "Peter",
+      "last": "Smith",
+      "preferred": "Sam"
+    },
+    "contact_info": {
+      "email": "sams@uni.edu",
+      "phone": "4258281340"
+    },
+    "academic_record": {
+      "year": "third",
+      "gpa": 2.85,
+      "major": "physics",
+      "status": "full-time",
+      "advisor": "Justin Roiland",
+      "enrollment_date": "2018",
+      "graduation_date": "2022"
+    }
+  },
+  {
+    "name": {
+      "first": "Leah",
+      "middle": "Dan",
+      "last": "Korn",
+      "preferred": "Leah"
+    },
+    "contact_info": {
+      "email": "lkorn@uni.edu",
+      "phone": "3021947292"
+    },
+    "academic_record": {
+      "year": "first",
+      "gpa": 3.54,
+      "major": "computer science",
+      "status": "part-time",
+      "advisor": "Lee R",
+      "enrollment_date": "2020",
+      "graduation_date": "2024"
+    }
+  },
+  {
+    "name": {
+      "first": "Zoe",
+      "middle": "Kyron",
+      "last": "Browning",
+      "preferred": "Zoe"
+    },
+    "contact_info": {
+      "email": "browingz@uni.edu",
+      "phone": "8294021042"
+    },
+    "academic_record": {
+      "year": "second",
+      "gpa": 3.30,
+      "major": "biology",
+      "minor": "math",
+      "status": "full-time",
+      "advisor": "Donald Knuth",
+      "enrollment_date": "2019",
+      "graduation_date": "2023"
+    }
+  },
+  {
+    "name": {
+      "first": "Ewan",
+      "last": "Blundell",
+      "preferred": "Ewan"
+    },
+    "contact_info": {
+      "email": "eblindell@uni.edu",
+      "phone": "7204924910"
+    },
+    "academic_record": {
+      "year": "third",
+      "gpa": 3.77,
+      "major": "Philosophy",
+      "status": "full-time",
+      "advisor": "Tim Fin",
+      "enrollment_date": "2018",
+      "graduation_date": "2022"
+    }
+  },
+  {
+    "name": {
+      "first": "Jaidan",
+      "middle": "Wickens",
+      "last": "Macleod",
+      "preferred": "Jay"
+    },
+    "contact_info": {
+      "email": "jaidanm@uni.edu",
+      "phone": "6482194910"
+    },
+    "academic_record": {
+      "year": "second",
+      "gpa": 2.53,
+      "major": "finance",
+      "status": "part-time",
+      "advisor": "Donald Knuth",
+      "enrollment_date": "2019",
+      "graduation_date": "2023"
+    }
+  },
+  {
+    "name": {
+      "first": "Arya",
+      "last": "Sparrow",
+      "preferred": "Arya"
+    },
+    "contact_info": {
+      "email": "aryas@uni.edu",
+      "phone": "30249148124"
+    },
+    "academic_record": {
+      "year": "fourth",
+      "gpa": 3.72,
+      "major": "Law ",
+      "status": "full-time",
+      "advisor": "Umaima Mitchell",
+      "enrollment_date": "2017",
+      "graduation_date": "2021"
+    }
+  },
+  {
+    "name": {
+      "first": "Finbar",
+      "middle": "Mikhail",
+      "last": "Brewer",
+      "preferred": "Fin"
+    },
+    "contact_info": {
+      "email": "finbadm@uni.edu",
+      "phone": "2914928412"
+    },
+    "academic_record": {
+      "year": "second",
+      "gpa": 3.34,
+      "major": "computer science",
+      "minor": "data science",
+      "status": "full-time",
+      "advisor": "Kayley Marquez",
+      "enrollment_date": "2018",
+      "graduation_date": "2022"
+    }
+  }
+ ])
+
