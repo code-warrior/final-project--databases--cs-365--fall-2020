@@ -1,7 +1,7 @@
 let db;
 let studentdirectory;
 db.studentdirectory.insert([
-    {"personal_Information" :{
+    {"personalInformation" :{
             "name": [{
                 "first": "Jacob",
                 "middle": "Ryan",
@@ -9,23 +9,23 @@ db.studentdirectory.insert([
                 "preferred": "Jacob"
             }],
             "phone": "2036487951",
-            "email_Address": "Davidson@hartford.edu"
+            "emailAddress": "Davidson@hartford.edu"
         },
-        "school_Information": {
-            "student_ID": 19346872,
+        "schoolInformation": {
+            "studentID": 19346872,
             "curriculum": [{
                 "major": "Computer Science",
                 "minor": "None"}],
             "advisor": "Professor Rosiene"
         },
-        "graduation_Status": {
+        "graduationStatus": {
             "year": "fourth-year",
             "gpa": 3.66,
-            "student_Status": "full-time",
-            "date_of_Initial_Enrollment": "September 2013",
-            "graduation_date": "May 2017"}
+            "studentStatus": "full-time",
+            "dateOfInitialEnrollment": "September 2013",
+            "graduationDate": "May 2017"}
     },
-    {"personal_Information": {
+    {"personalInformation": {
             "name": [{
                 "first": "Andrew",
                 "middle": "Michael",
@@ -33,23 +33,23 @@ db.studentdirectory.insert([
                 "preferred": "Andy"
             }],
             "phone": "8607356644",
-            "email_Address": "Valentine@hartford.edu"
+            "emailAddress": "Valentine@hartford.edu"
         },
-        "school_Information": {
-            "student_ID":19672234,
+        "schoolInformation": {
+            "studentID":19672234,
             "curriculum": [{
                 "major": "Mathematics",
                 "minor": "English"}],
             "advisor": "Professor Donald Knuth"
         },
-        "graduation_Status": {
+        "graduationStatus": {
             "year": "third-year",
             "gpa": 3.85,
-            "student_Status": "part-time",
-            "date_of_Initial_Enrollment": "September 2016",
-            "graduation_date": "May 2021"}
+            "studentStatus": "part-time",
+            "dateOfInitialEnrollment": "September 2016",
+            "graduationDate": "May 2021"}
     },
-    {"personal_Information": {
+    {"personalInformation": {
             "name": [{
                 "first": "Thomas",
                 "middle": "Joseph",
@@ -57,23 +57,23 @@ db.studentdirectory.insert([
                 "preferred":"Tom"
             }],
             "phone":"2037645467",
-            "email_Address":"Tbradley@hartford.edu"
+            "emailAddress":"Tbradley@hartford.edu"
         },
-        "school_Information": {
-            "student_ID": 19467965,
+        "schoolInformation": {
+            "studentID": 19467965,
             "curriculum": [{
                 "major": "Vocal Performance",
                 "minor": "None"}],
             "advisor": "Professor Andrews"
         },
-        "graduation_Status": {
+        "graduationStatus": {
             "year": "first-year",
             "gpa": 4.00,
-            "student_Status": "full-time",
-            "date_of_Initial_Enrollment": "Sept 2014",
-            "graduation_date": "May 2018"}
+            "studentStatus": "full-time",
+            "dateOfInitialEnrollment": "Sept 2014",
+            "graduationDate": "May 2018"}
     },
-    {"personal_Information": {
+    {"personalInformation": {
             "name": [{
                 "first": "John",
                 "middle": "Victor",
@@ -81,23 +81,23 @@ db.studentdirectory.insert([
                 "preferred":"Jack"
             }],
             "phone":"2038571093",
-            "email_Address":"Jorobbins@hartford.edu"
+            "emailAddress":"Jorobbins@hartford.edu"
         },
-        "school_Information": {
-            "student_ID": 19678843,
+        "schoolInformation": {
+            "studentID": 19678843,
             "curriculum": [{
                 "major": "Mathematics",
                 "minor": "Computer Science"}],
             "advisor": "Professor Haruta"
         },
-        "graduation_Status": {
+        "graduationStatus": {
             "year": "fourth-year",
             "gpa": 3.50,
-            "student_Status": "full-time",
-            "date_of_Initial_Enrollment": "Sept 2016",
-            "graduation_date": "May 2020"}
+            "studentStatus": "full-time",
+            "dateOfInitialEnrollment": "Sept 2016",
+            "graduationDate": "May 2020"}
     },
-    {"personal_Information": {
+    {"personalInformation": {
             "name": [{
                 "first": "Valerie",
                 "middle": "Sarah",
@@ -105,23 +105,23 @@ db.studentdirectory.insert([
                 "preferred": "Val"
             }],
             "phone": "4132298763",
-            "email_Address": "Martinez@hartford.edu"
+            "emailAddress": "Martinez@hartford.edu"
         },
-        "school_Information": {
-            "student_ID": 19769875,
+        "schoolInformation": {
+            "studentID": 19769875,
             "curriculum": [{
                 "major": "Mathematics",
                 "minor": "Physics"}],
             "advisor": "Professor Turpin"
         },
-        "graduation_Status": {
+        "graduationStatus": {
             "year": "second-year",
             "gpa": 3.60,
-            "student_Status": "part-time",
-            "date_of_Initial_Enrollment": "Sept 2017",
-            "graduation_date": "May 2022"}
+            "studentStatus": "part-time",
+            "dateOfInitialEnrollment": "Sept 2017",
+            "graduationDate": "May 2022"}
     },
-    {"personal_Information": {
+    {"personalInformation": {
             "name": [{
                 "first": "Danielle",
                 "middle": "Christina",
@@ -129,23 +129,23 @@ db.studentdirectory.insert([
                 "preferred": "Dani"
             }],
             "phone": "2037428641",
-            "email_Address": "Jackson@hartford.edu"
+            "emailAddress": "Jackson@hartford.edu"
         },
-        "school_Information": {
-            "student_ID": 19863345,
+        "schoolInformation": {
+            "studentID": 19863345,
             "curriculum": [{
                 "major": "Computer Engineering",
                 "minor": "None"}],
             "advisor": "Professor Yang"
         },
-        "graduation_Status": {
+        "graduationStatus": {
             "year": "Second-year",
             "gpa": 3.75,
-            "student_Status": "full-time",
-            "date_of_Initial_Enrollment": "Sept 2018",
-            "graduation_date": "May 2022"}
+            "studentStatus": "full-time",
+            "dateOfInitialEnrollment": "Sept 2018",
+            "graduationDate": "May 2022"}
     },
-    {"personal_Information": {
+    {"personalInformation": {
             "name": [{
                 "first": "Lily",
                 "middle": "Evelyn",
@@ -153,23 +153,23 @@ db.studentdirectory.insert([
                 "preferred": "Lily"
             }],
             "phone": "8605486221",
-            "email_Address": "Lroberts@hartford.edu"
+            "emailAddress": "Lroberts@hartford.edu"
         },
-        "school_Information": {
-            "student_ID": 19950933,
+        "schoolInformation": {
+            "studentID": 19950933,
             "curriculum": [{
                 "major": "Mathematics",
                 "minor": "None"}],
             "advisor": "Professor Haruta"
         },
-        "graduation_Status": {
+        "graduationStatus": {
             "year": "fourth-year",
             "gpa": 3.25,
-            "student_Status": "part-time",
-            "date_of_Initial_Enrollment": "Sept 2019",
-            "graduation_date": "Dec 2023"}
+            "studentStatus": "part-time",
+            "dateOfInitialEnrollment": "Sept 2019",
+            "graduationDate": "Dec 2023"}
     },
-    {"personal_Information": {
+    {"personalInformation": {
             "name": [{
                 "first": "Michelle",
                 "middle": "Lisa",
@@ -177,23 +177,23 @@ db.studentdirectory.insert([
                 "preferred": "Mickey"
             }],
             "phone": "4139283304",
-            "email_Address": "MNelson@hartford.edu"
+            "emailAddress": "MNelson@hartford.edu"
         },
-        "school_Information": {
-            "student_ID": 19384487,
+        "schoolInformation": {
+            "studentID": 19384487,
             "curriculum": [{
                 "major": "Computer Science",
                 "minor": "Mathematics"}],
             "advisor": "Professor Donald Knuth"
         },
-        "graduation_Status": {
+        "graduationStatus": {
             "year": "Second-year",
             "gpa": 2.75,
-            "student_Status": "full-time",
-            "date_of_Initial_Enrollment": "Sept 2013",
-            "graduation_date": "May 2017"}
+            "studentStatus": "full-time",
+            "dateOfInitialEnrollment": "Sept 2013",
+            "graduationDate": "May 2017"}
     },
-    {"personal_Information": {
+    {"personalInformation": {
             "name": [{
                 "first": "Stephen",
                 "middle": "Michael",
@@ -201,23 +201,23 @@ db.studentdirectory.insert([
                 "preferred": "Mike"
             }],
             "phone": "8603937479",
-            "email_Address": "MiJones@hartford.edu"
+            "emailAddress": "MiJones@hartford.edu"
         },
-        "school_Information": {
-            "student_ID": 19853974,
+        "schoolInformation": {
+            "studentID": 19853974,
             "curriculum": [{
                 "major": "Computer Science",
                 "minor": "None"}],
             "advisor": "Professor Russell"
         },
-        "graduation_Status": {
+        "graduationStatus": {
             "year": "third-year",
             "gpa": 1.83,
-            "student_Status": "part-time",
-            "date_of_Initial_Enrollment": "Sept 2018",
-            "graduation_date": "May 2023"}
+            "studentStatus": "part-time",
+            "dateOfInitialEnrollment": "Sept 2018",
+            "graduationDate": "May 2023"}
     },
-    {"personal_Information": {
+    {"personalInformation": {
             "name": [{
                 "first": "Victoria",
                 "middle": "Jessica",
@@ -225,23 +225,23 @@ db.studentdirectory.insert([
                 "preferred": "Vicki"
             }],
             "phone": "4139387743",
-            "email_Address": "Nunez@hartford.edu"
+            "emailAddress": "Nunez@hartford.edu"
         },
-        "school_Information": {
-            "student_ID": 19874643,
+        "schoolInformation": {
+            "studentID": 19874643,
             "curriculum": [{
                 "major": "Computer Science",
                 "minor": "Mathematics"}],
             "advisor": "Professor Russell"
         },
-        "graduation_Status": {
+        "graduationStatus": {
             "year": "third-year",
             "gpa": 1.00,
-            "student_Status": "part-time",
-            "date_of_Initial_Enrollment": "Sept 2018",
-            "graduation_date": "May 2023"}
+            "studentStatus": "part-time",
+            "dateOfInitialEnrollment": "Sept 2018",
+            "graduationDate": "May 2023"}
     }
 ]);
-db.studentdirectory.find({"graduation_Status.gpa": {"$gt":"3.50"}});
-db.studentdirectory.update({"$and": [{"school_Information.advisor":"Professor Donald Knuth","graduation_Status.gpa": {"$gt":"3.50"}}], "$set":{"graduation_Status.student_Status":"graduated"}});
-db.studentdirectory.update({"$and": [{"school_Information.advisor":"Professor Donald Knuth","graduation_Status.gpa": {"$lt":"3.50"}}], "$set":{"graduation_Status.student_Status":"withdrawn"}});
+db.studentdirectory.find({"graduationStatus.gpa": {"$gt":3.50}}).pretty();
+db.studentdirectory.update({"personalInformation.emailAddress":"Valentine@hartford.edu"}, {"$set":{"graduationStatus.studentStatus":"graduated"}});
+db.studentdirectory.update({"personalInformation.emailAddress":"MNelson@hartford.edu"}, {"$set":{"graduationStatus.studentStatus":"withdrawn"}});

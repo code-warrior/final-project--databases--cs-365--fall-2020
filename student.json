@@ -1,5 +1,5 @@
  [{
-        "personal_Information": {
+        "personalInformation": {
           "name": [{
               "first": "Henry",
               "middle": "Peter",
@@ -7,26 +7,26 @@
               "preferred": "Henry"
             }],
           "phone": "413-668-5774",
-          "email_Address": "Collins@hartford.edu"
+          "emailAddress": "Collins@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19593544,
+        "schoolInformation": {
+          "studentID": 19593544,
           "curriculum": [{
               "major": "Computer Science",
               "minor": "Math"
             }],
           "advisor": "Professor Russell"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "None",
           "gpa": 3.80,
-          "student_Status": "graduated",
-          "date_of_Initial_Enrollment": "September 2015",
-          "graduation_Date": "May 2019"
+          "studentStatus": "graduated",
+          "dateOfInitialEnrollment": "September 2015",
+          "graduationDate": "May 2019"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [{
               "first": "Mary",
               "middle": "Nicole",
@@ -35,10 +35,10 @@
             }
           ],
           "phone": "860-441-2556",
-          "email_Address": "Mdaniels@hartford.edu"
+          "emailAddress": "Mdaniels@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19368854,
+        "schoolInformation": {
+          "studentID": 19368854,
           "curriculum": [
             {
               "major": "Computer Engineering",
@@ -47,16 +47,16 @@
           ],
           "advisor": "Professor Eppes"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "None",
           "gpa": 3.66,
-          "student_Status": "graduated",
-          "date_of_Initial_Enrollment": "September 2013",
-          "graduation_Date": "May 2017"
+          "studentStatus": "graduated",
+          "dateOfInitialEnrollment": "September 2013",
+          "graduationDate": "May 2017"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [{
               "first": "Maria",
               "middle": "Christina",
@@ -65,10 +65,10 @@
             }
           ],
           "phone": "860-223-1886",
-          "email_Address": "Mdavis@hartford.edu"
+          "emailAddress": "Mdavis@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19778028,
+        "schoolInformation": {
+          "studentID": 19778028,
           "curriculum": [
             {
               "major": "Computer Science",
@@ -77,16 +77,16 @@
           ],
           "advisor": "Professor Russell"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "First-year",
           "gpa": 3.70,
-          "student_Status": "full-time",
-          "date_of_Initial_Enrollment": "September 2017",
-          "graduation_Date": "May 2021"
+          "studentStatus": "full-time",
+          "dateOfInitialEnrollment": "September 2017",
+          "graduationDate": "May 2021"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Michelle",
@@ -96,10 +96,10 @@
             }
           ],
           "phone": "413-743-5569",
-          "email_Address": "Miford@hartford.edu"
+          "emailAddress": "Miford@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19649173,
+        "schoolInformation": {
+          "studentID": 19649173,
           "curriculum": [
             {
               "major": "Computer Science",
@@ -108,16 +108,16 @@
           ],
           "advisor": "Professor Russell"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "Second-year",
           "gpa": 3.80,
-          "student_Status": "full-time",
-          "date_of_Initial_Enrollment": "September 2016",
-          "graduation_Date": "May 2020"
+          "studentStatus": "full-time",
+          "dateOfInitialEnrollment": "September 2016",
+          "graduationDate": "May 2020"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Robert",
@@ -127,10 +127,10 @@
             }
           ],
           "phone": "413-849-7681",
-          "email_Address": "Foreman@hartford.edu"
+          "emailAddress": "Foreman@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19742866,
+        "schoolInformation": {
+          "studentID": 19742866,
           "curriculum": [
             {
               "major": "Computer Engineering",
@@ -139,16 +139,16 @@
           ],
           "advisor": "Professor Eppes"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "Fourth-year",
           "gpa": 3.55,
-          "student_Status": "withdrawn",
-          "date_of_Initial_Enrollment": "September 2017",
-          "graduation_Date": "December 2021"
+          "studentStatus": "withdrawn",
+          "dateOfInitialEnrollment": "September 2017",
+          "graduationDate": "December 2021"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Elizabeth",
@@ -158,10 +158,10 @@
             }
           ],
           "phone": "413-461-7253",
-          "email_Address": "Johnson@hartford.edu"
+          "emailAddress": "Johnson@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19638469,
+        "schoolInformation": {
+          "studentID": 19638469,
           "curriculum": [
             {
               "major": "Computer Science",
@@ -170,16 +170,16 @@
           ],
           "advisor": "Professor Rosiene"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "Second-year",
           "gpa": 3.70,
-          "student_Status": "full-time",
-          "date_of_Initial_Enrollment": "September 2016",
-          "graduation_Date": "May 2020"
+          "studentStatus": "full-time",
+          "dateOfInitialEnrollment": "September 2016",
+          "graduationDate": "May 2020"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Danielle",
@@ -189,10 +189,10 @@
             }
           ],
           "phone": "203-336-9742",
-          "email_Address": "Kincaid@hartford.edu"
+          "emailAddress": "Kincaid@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19767998,
+        "schoolInformation": {
+          "studentID": 19767998,
           "curriculum": [
             {
               "major": "Computer Engineering",
@@ -201,16 +201,16 @@
           ],
           "advisor": "Professor Yu"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "First-year",
           "gpa": 4.00,
-          "student_Status": "full-time",
-          "date_of_Initial_Enrollment": "September 2017",
-          "graduation_Date": "May 2021"
+          "studentStatus": "full-time",
+          "dateOfInitialEnrollment": "September 2017",
+          "graduationDate": "May 2021"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Richard",
@@ -220,10 +220,10 @@
             }
           ],
           "phone": "203-249-1154",
-          "email_Address": "Rimann@hartford.edu"
+          "emailAddress": "Rimann@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19854366,
+        "schoolInformation": {
+          "studentID": 19854366,
           "curriculum": [
             {
               "major": "Computer Science",
@@ -232,16 +232,16 @@
           ],
           "advisor": "Professor Becker"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "Second-year",
           "gpa": 3.67,
-          "student_Status": "full-time",
-          "date_of_Initial_Enrollment": "September 2018",
-          "graduation_Date": "May 2022"
+          "studentStatus": "full-time",
+          "dateOfInitialEnrollment": "September 2018",
+          "graduationDate": "May 2022"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Richard",
@@ -251,10 +251,10 @@
             }
           ],
           "phone": "860-197-3492",
-          "email_Address": "Rmanning@hartford.edu"
+          "emailAddress": "Rmanning@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19678245,
+        "schoolInformation": {
+          "studentID": 19678245,
           "curriculum": [
             {
               "major": "Computer Science",
@@ -263,16 +263,16 @@
           ],
           "advisor": "Professor Rosiene"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "None",
           "gpa": 3.85,
-          "student_Status": "Graduated",
-          "date_of_Initial_Enrollment": "September 2016",
-          "graduation_Date": "May 2020"
+          "studentStatus": "Graduated",
+          "dateOfInitialEnrollment": "September 2016",
+          "graduationDate": "May 2020"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Nancy",
@@ -282,10 +282,10 @@
             }
           ],
           "phone": "413-284-3755",
-          "email_Address": "Nmartinez@hartford.edu"
+          "emailAddress": "Nmartinez@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19793554,
+        "schoolInformation": {
+          "studentID": 19793554,
           "curriculum": [
             {
               "major": "Computer Engineering",
@@ -294,16 +294,16 @@
           ],
           "advisor": "Professor Eppes"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "First-year",
           "gpa": 3.90,
-          "student_Status": "part-time",
-          "date_of_Initial_Enrollment": "September 2017",
-          "graduation_Date": "May 2022"
+          "studentStatus": "part-time",
+          "dateOfInitialEnrollment": "September 2017",
+          "graduationDate": "May 2022"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Robert",
@@ -313,10 +313,10 @@
             }
           ],
           "phone": "860-469-8731",
-          "email_Address": "Rnicholas@hartford.edu"
+          "emailAddress": "Rnicholas@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19468536,
+        "schoolInformation": {
+          "studentID": 19468536,
           "curriculum": [
             {
               "major": "Computer Engineering",
@@ -325,16 +325,16 @@
           ],
           "advisor": "Professor Eppes"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "First-year",
           "gpa": 3.80,
-          "student_Status": "full-time",
-          "date_of_Initial_Enrollment": "September 2014",
-          "graduation_Date": "May 2018"
+          "studentStatus": "full-time",
+          "dateOfInitialEnrollment": "September 2014",
+          "graduationDate": "May 2018"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Anna",
@@ -344,10 +344,10 @@
             }
           ],
           "phone": "860-248-4436",
-          "email_Address": "Anichols@hartford.edu"
+          "emailAddress": "Anichols@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19682391,
+        "schoolInformation": {
+          "studentID": 19682391,
           "curriculum": [
             {
               "major": "Computer Science",
@@ -356,16 +356,16 @@
           ],
           "advisor": "Professor Becker"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "Third-year",
           "gpa": 3.79,
-          "student_Status": "full-time",
-          "date_of_Initial_Enrollment": "September 2016",
-          "graduation_Date": "May 2020"
+          "studentStatus": "full-time",
+          "dateOfInitialEnrollment": "September 2016",
+          "graduationDate": "May 2020"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Victoria",
@@ -375,10 +375,10 @@
             }
           ],
           "phone": "203-785-4691",
-          "email_Address": "Peterson@hartford.edu"
+          "emailAddress": "Peterson@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19934526,
+        "schoolInformation": {
+          "studentID": 19934526,
           "curriculum": [
             {
               "major": "Computer Engineering",
@@ -387,16 +387,16 @@
           ],
           "advisor": "Professor Yu"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "Third-year",
           "gpa": 3.75,
-          "student_Status": "part-time",
-          "date_of_Initial_Enrollment": "September 2019",
-          "graduation_Date": "May 2024"
+          "studentStatus": "part-time",
+          "dateOfInitialEnrollment": "September 2019",
+          "graduationDate": "May 2024"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Michael",
@@ -406,10 +406,10 @@
             }
           ],
           "phone": "203-946-7311",
-          "email_Address": "Mphillips@hartford.edu"
+          "emailAddress": "Mphillips@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19751648,
+        "schoolInformation": {
+          "studentID": 19751648,
           "curriculum": [
             {
               "major": "Computer Engineering",
@@ -418,16 +418,16 @@
           ],
           "advisor": "Professor Eppes"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "First-year",
           "gpa": 3.80,
-          "student_Status": "part-time",
-          "date_of_Initial_Enrollment": "September 2017",
-          "graduation_Date": "May 2023"
+          "studentStatus": "part-time",
+          "dateOfInitialEnrollment": "September 2017",
+          "graduationDate": "May 2023"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Christopher",
@@ -437,10 +437,10 @@
             }
           ],
           "phone": "203-654-3987",
-          "email_Address": "Chporter@hartford.edu"
+          "emailAddress": "Chporter@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19135569,
+        "schoolInformation": {
+          "studentID": 19135569,
           "curriculum": [
             {
               "major": "Computer Engineering",
@@ -449,16 +449,16 @@
           ],
           "advisor": "Professor Eppes"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "First-year",
           "gpa": 3.80,
-          "student_Status": "withdrawn",
-          "date_of_Initial_Enrollment": "September 2011",
-          "graduation_Date": "May 2015"
+          "studentStatus": "withdrawn",
+          "dateOfInitialEnrollment": "September 2011",
+          "graduationDate": "May 2015"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Christopher",
@@ -468,10 +468,10 @@
             }
           ],
           "phone": "413-197-3492",
-          "email_Address": "Cporter@hartford.edu"
+          "emailAddress": "Cporter@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19564469,
+        "schoolInformation": {
+          "studentID": 19564469,
           "curriculum": [
             {
               "major": "Computer Engineering",
@@ -480,16 +480,16 @@
           ],
           "advisor": "Professor Eppes"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "First-year",
           "gpa": 3.70,
-          "student_Status": "full-time",
-          "date_of_Initial_Enrollment": "September 2015",
-          "graduation_Date": "May 2020"
+          "studentStatus": "full-time",
+          "dateOfInitialEnrollment": "September 2015",
+          "graduationDate": "May 2020"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Ryan",
@@ -499,10 +499,10 @@
             }
           ],
           "phone": "860-647-8221",
-          "email_Address": "Rporter@hartford.edu"
+          "emailAddress": "Rporter@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19324896,
+        "schoolInformation": {
+          "studentID": 19324896,
           "curriculum": [
             {
               "major": "Computer Science",
@@ -511,16 +511,16 @@
           ],
           "advisor": "Professor Rosiene"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "None",
           "gpa": 3.80,
-          "student_Status": "graduated",
-          "date_of_Initial_Enrollment": "September 2013",
-          "graduation_Date": "May 2018"
+          "studentStatus": "graduated",
+          "dateOfInitialEnrollment": "September 2013",
+          "graduationDate": "May 2018"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Veronica",
@@ -530,10 +530,10 @@
             }
           ],
           "phone": "860-645-8821",
-          "email_Address": "Vepotter@hartford.edu"
+          "emailAddress": "Vepotter@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19761335,
+        "schoolInformation": {
+          "studentID": 19761335,
           "curriculum": [
             {
               "major": "Computer Science",
@@ -542,16 +542,16 @@
           ],
           "advisor": "Professor Rosiene"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "First-year",
           "gpa": 3.90,
-          "student_Status": "full-time",
-          "date_of_Initial_Enrollment": "September 2017",
-          "graduation_Date": "May 2021"
+          "studentStatus": "full-time",
+          "dateOfInitialEnrollment": "September 2017",
+          "graduationDate": "May 2021"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Audrey",
@@ -561,10 +561,10 @@
             }
           ],
           "phone": "203-497-2813",
-          "email_Address": "Asanders@hartford.edu"
+          "emailAddress": "Asanders@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19783304,
+        "schoolInformation": {
+          "studentID": 19783304,
           "curriculum": [
             {
               "major": "Computer Science",
@@ -573,16 +573,16 @@
           ],
           "advisor": "Professor Becker"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "First-year",
           "gpa": 3.30,
-          "student_Status": "part-time",
-          "date_of_Initial_Enrollment": "September 2017",
-          "graduation_Date": "May 2021"
+          "studentStatus": "part-time",
+          "dateOfInitialEnrollment": "September 2017",
+          "graduationDate": "May 2021"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Abigail",
@@ -592,10 +592,10 @@
             }
           ],
           "phone": "413-335-1494",
-          "email_Address": "Astevens@hartford.edu"
+          "emailAddress": "Astevens@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19432416,
+        "schoolInformation": {
+          "studentID": 19432416,
           "curriculum": [
             {
               "major": "Computer Science",
@@ -604,16 +604,16 @@
           ],
           "advisor": "Professor Russell"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "Fourth-year",
           "gpa": 3.85,
-          "student_Status": "withdrawn",
-          "date_of_Initial_Enrollment": "September 2014",
-          "graduation_Date": "May 2018"
+          "studentStatus": "withdrawn",
+          "dateOfInitialEnrollment": "September 2014",
+          "graduationDate": "May 2018"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Christopher",
@@ -623,10 +623,10 @@
             }
           ],
           "phone": "860-146-8297",
-          "email_Address": "Cstevens@hartford.edu"
+          "emailAddress": "Cstevens@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19742356,
+        "schoolInformation": {
+          "studentID": 19742356,
           "curriculum": [
             {
               "major": "Computer Engineering",
@@ -635,16 +635,16 @@
           ],
           "advisor": "Professor Eppes"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "First-year",
           "gpa": 3.80,
-          "student_Status": "full-time",
-          "date_of_Initial_Enrollment": "September 2017",
-          "graduation_Date": "May 2022"
+          "studentStatus": "full-time",
+          "dateOfInitialEnrollment": "September 2017",
+          "graduationDate": "May 2022"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Rachel",
@@ -654,10 +654,10 @@
             }
           ],
           "phone": "413-769-5532",
-          "email_Address": "Rvanjoss@hartford.edu"
+          "emailAddress": "Rvanjoss@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19853372,
+        "schoolInformation": {
+          "studentID": 19853372,
           "curriculum": [
             {
               "major": "Computer Engineering",
@@ -666,16 +666,16 @@
           ],
           "advisor": "Professor Eppes"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "First-year",
           "gpa": 3.80,
-          "student_Status": "part-time",
-          "date_of_Initial_Enrollment": "September 2018",
-          "graduation_Date": "May 2022"
+          "studentStatus": "part-time",
+          "dateOfInitialEnrollment": "September 2018",
+          "graduationDate": "May 2022"
         }
       },
       {
-        "personal_Information": {
+        "personalInformation": {
           "name": [
             {
               "first": "Peter",
@@ -685,10 +685,10 @@
             }
           ],
           "phone": "203-796-3551",
-          "email_Address": "Yong@hartford.edu"
+          "emailAddress": "Yong@hartford.edu"
         },
-        "school_Information": {
-          "student_ID": 19466998,
+        "schoolInformation": {
+          "studentID": 19466998,
           "curriculum": [
             {
               "major": "Computer Engineering",
@@ -697,16 +697,16 @@
           ],
           "advisor": "Professor Russell"
         },
-        "graduation_Status": {
+        "graduationStatus": {
           "year": "Third-year",
           "gpa": 3.50,
-          "student_Status": "full-time",
-          "date_of_Initial_Enrollment": "September 2014",
-          "graduation_Date": "May 2018"
+          "studentStatus": "full-time",
+          "dateOfInitialEnrollment": "September 2014",
+          "graduationDate": "May 2018"
         }
       },
    {
-     "personal_Information": {
+     "personalInformation": {
        "name": [
          {
            "first": "Declan",
@@ -716,22 +716,22 @@
          }
        ],
        "phone": "203-446-1879",
-       "email_Address": "Dyoung@hartford.edu"
+       "emailAddress": "Dyoung@hartford.edu"
      },
-     "school_Information": {
-       "student_ID": 19463179,
+     "schoolInformation": {
+       "studentID": 19463179,
        "curriculum": [{
            "major": "Computer Science",
            "minor": "None"
          }],
        "advisor": "Professor Becker"
      },
-     "graduation_Status": {
+     "graduationStatus": {
        "year": "Second-year",
        "gpa": 3.90,
-       "student_Status": "full-time",
-       "date_of_Initial_Enrollment": "September 2014",
-       "graduation_Date": "May 2018"
+       "studentStatus": "full-time",
+       "dateOfInitialEnrollment": "September 2014",
+       "graduationDate": "May 2018"
      }
    }
  ]
