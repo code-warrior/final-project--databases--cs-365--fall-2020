@@ -1,11 +1,11 @@
 //create database if it does not exist, then use it.
-db = db.getSiblingDB('students');
+students = db.getSiblingDB('students');
 
 //create collection
 db.createCollection('studentsCollection');
 
 //Insert 10 entries into the collecion
-db.studentsCollection.insert({
+students.studentsCollection.insert({
     studentInfo: {
         studentId: 0000001,
         fName: 'Jon',
@@ -25,7 +25,7 @@ db.studentsCollection.insert({
     },
     schoolStats: {
         year: 'Fourth Year',
-        gpa: 3.55,
+        gpa: '3.55',
         major: {
             firstMajor: 'Multimedia Wed Design and Development',
             secondMajor: null,
@@ -44,7 +44,7 @@ db.studentsCollection.insert({
         }
     }
 });
-db.studentsCollection.insert({
+students.studentsCollection.insert({
     studentInfo: {
         studentId: 0000002,
         fName: 'John',
@@ -64,7 +64,7 @@ db.studentsCollection.insert({
     },
     schoolStats: {
         year: 'Second Year',
-        gpa: 3.72,
+        gpa: '3.72',
         major: {
             firstMajor: 'Nursing',
             secondMajor: null,
@@ -83,7 +83,7 @@ db.studentsCollection.insert({
         }
     }
 });
-db.studentsCollection.insert({
+students.studentsCollection.insert({
     studentInfo: {
         studentId: 0000003,
         fName: 'Jane',
@@ -103,7 +103,7 @@ db.studentsCollection.insert({
     },
     schoolStats: {
         year: 'Fifth Year',
-        gpa: 2.31,
+        gpa: '2.31',
         major: {
             firstMajor: 'Business Entrepreneur',
             secondMajor: 'Computer Science',
@@ -122,7 +122,7 @@ db.studentsCollection.insert({
         }
     }
 });
-db.studentsCollection.insert({
+students.studentsCollection.insert({
     studentInfo: {
         studentId: 0000004,
         fName: 'Donald',
@@ -142,7 +142,7 @@ db.studentsCollection.insert({
     },
     schoolStats: {
         year: 'First Year',
-        gpa: 4.0,
+        gpa: '4.0',
         major: {
             firstMajor: 'Graphic Design',
             secondMajor: null,
@@ -161,7 +161,7 @@ db.studentsCollection.insert({
         }
     }
 });
-db.studentsCollection.insert({
+students.studentsCollection.insert({
     studentInfo: {
         studentId: 0000005,
         fName: 'Mickey',
@@ -181,7 +181,7 @@ db.studentsCollection.insert({
     },
     schoolStats: {
         year: 'Third Year',
-        gpa: 3.2,
+        gpa: '3.2',
         major: {
             firstMajor: 'Computer Engineering',
             secondMajor: null,
@@ -200,7 +200,7 @@ db.studentsCollection.insert({
         }
     }
 });
-db.studentsCollection.insert({
+students.studentsCollection.insert({
     studentInfo: {
         studentId: 0000006,
         fName: 'Scooby',
@@ -220,7 +220,7 @@ db.studentsCollection.insert({
     },
     schoolStats: {
         year: 'Fourth Year',
-        gpa: 3.8,
+        gpa: '3.8',
         major: {
             firstMajor: 'Multimedia Wed Design and Development',
             secondMajor: null,
@@ -239,7 +239,7 @@ db.studentsCollection.insert({
         }
     }
 });
-db.studentsCollection.insert({
+students.studentsCollection.insert({
     studentInfo: {
         studentId: 0000007,
         fName: 'Bugs',
@@ -259,7 +259,7 @@ db.studentsCollection.insert({
     },
     schoolStats: {
         year: 'First Year',
-        gpa: 1.3,
+        gpa: '1.3',
         major: {
             firstMajor: 'Computer Science',
             secondMajor: null,
@@ -278,7 +278,7 @@ db.studentsCollection.insert({
         }
     }
 });
-db.studentsCollection.insert({
+students.studentsCollection.insert({
     studentInfo: {
         studentId: 0000010,
         fName: 'Frosty',
@@ -298,7 +298,7 @@ db.studentsCollection.insert({
     },
     schoolStats: {
         year: 'Second Year',
-        gpa: 1.2,
+        gpa: '1.2',
         major: {
             firstMajor: 'Sculpting',
             secondMajor: null,
@@ -317,7 +317,7 @@ db.studentsCollection.insert({
         }
     }
 });
-db.studentsCollection.insert({
+students.studentsCollection.insert({
     studentInfo: {
         studentId: 0000011,
         fName: 'Santa',
@@ -337,7 +337,7 @@ db.studentsCollection.insert({
     },
     schoolStats: {
         year: 'Third Year',
-        gpa: 3.4,
+        gpa: '3.4',
         major: {
             firstMajor: 'Bussiness Management',
             secondMajor: null,
@@ -356,7 +356,7 @@ db.studentsCollection.insert({
         }
     }
 });
-db.studentsCollection.insert({
+students.studentsCollection.insert({
     studentInfo: {
         studentId: 0000012,
         fName: 'Rudolph',
@@ -376,7 +376,7 @@ db.studentsCollection.insert({
     },
     schoolStats: {
         year: 'Fifth Year',
-        gpa: 3.6,
+        gpa: '3.6',
         major: {
             firstMajor: 'Radiology',
             secondMajor: null,
@@ -396,27 +396,17 @@ db.studentsCollection.insert({
     }
 });
 
-db.studentsCollection
-    .find({
-        'schoolStats.gpa': { $gt: 3.5 }
-    })
+students.studentsCollection
+    .find({ 'schoolStats.gpa': { $gt: '3.5' } })
     .pretty();
 
-db.studentsCollection
-    .find({
-        'schoolStats.advisors.firstAdvisor': 'Donald Knuth'
-    })
-    .sort({ 'schoolStats.gpa': -1 })
-    .limit(1)
-    .update({
-        $set: { 'schoolStats.status': 'Graduated' }
-    })
-    .pretty();
+students.studentsCollection.findOneAndUpdate(
+    { 'schoolStats.advisors.firstAdvisor': 'Donald Knuth' },
+    { $set: { 'schoolStats.status': 'Graduated' } },
+    { upsert: true, sort: { gpa: -1 }, limit: 1 }
+);
 
-const filter = { 'schoolStats.advisors.firstAdvisor': 'Donald Knuth' };
-const update = { 'schoolStats.status': 'Graduated' };
-
-db.studentsCollection.findOneAndUpdate(filter, update, {
-    upsert: true,
-    sort: { gpa: -1 }
+students.studentsCollection.findAndModify({
+    sort: { 'schoolStats.gpa': 1 },
+    update: { $set: { 'schoolStats.status': 'Withdrawn' } }
 });
