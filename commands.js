@@ -1,5 +1,3 @@
-let db = null;
-let studentdirectory = null;
 db.studentdirectory.insert([{
   "personalInformation":
 {
