@@ -93,3 +93,13 @@ db.students.insertMany([
   }
 ])
 
+// Retrieve all the info from students with a GPA greater than 3.5
+db.students.find({ "current.gpa": { $gt: 3.5 }})
+
+// Update Donald Knuth's student with highest GPA to graduated
+var change = db.students.find({"advisor": "Donald Kluth"}).sort({"current.gpa": -1})[0]
+db.students.findOneAndUpdate({"_id": change._id}, {$set: {"current.status": "graduated"}})
+
+// Update status of student with lowest GPA to withdrawn
+var change2 = db.students.find({}).sort({"current.gpa": 1})[0]
+db.students.findOneAndUpdate({"_id": change2._id}, {$set: {"current.status": "withdrawn"}})
