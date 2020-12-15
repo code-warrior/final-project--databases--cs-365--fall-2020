@@ -81,7 +81,7 @@ db.studentsInfo.insertMany([
     },
     "academic_record": {
       "year": "third",
-      "gpa": 2.85,
+      "gpa": 1.85,
       "major": "physics",
       "status": "full-time",
       "advisor": "Justin Roiland",
@@ -217,3 +217,7 @@ db.studentsInfo.insertMany([
   }
  ])
 
+db.studentsInfo.find({"academic_record.gpa":{$gt: 3.5}}).pretty()
+db.studentsInfo.findOneAndUpdate({ "academic_record.advisor": "Donald Knuth"}, { $set: { "academic_record.status": "graduated" }}, { sort : { "academic_record.gpa" :-1 }, returnNewDocument : true})
+db.studentsInfo.findAndModify({sort : { "academic_record.gpa" :1 }, update: { $set: { "academic_record.status": "withdrawn" }}, new: true})
+mongodump --db universityOfX --collection studentsInfo
