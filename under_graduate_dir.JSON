@@ -1,0 +1,179 @@
+{
+	"_id":{"$oid":"5fd18e3e9bce60833c5d1fb4"},
+	"stu_ID":18693748,
+	"first_name":"Dean",
+	"last_name":"Winchester",
+	"pref_name":"Squirrel",
+	"email":"dwinchester@hartford.edu",
+	"phone":"(123)867-5309",
+	"year":"Freshman",
+	"gpa":2.8,
+	"major":"Monster Hunting",
+	"minor":"Classic Car Repair",
+	"status":"part-time",
+	"advisor":"Bobby singer",
+	"init_enroll":"Sep 2020",
+	"grad_date":"May 2024"
+}
+
+{
+	"_id":{"$oid":"5fd193169bce60833c5d1fb5"},
+	"stu_ID":53783759,
+	"first_name":"Sam",
+	"last_name":"Winchester",
+	"pref_name":"Moose",
+	"email":"samwinchester@hartford.edu",
+	"phone":"(123)674-2324",
+	"year":"Freshman",
+	"gpa":3.7,
+	"major":"Monster Hunting",
+	"minor":"Historical Literature",
+	"status":"full-time",
+	"advisor":"Bobby singer",
+	"init_enroll":"Sep 2020",
+	"grad_date":"May 2024"
+}
+
+{
+	"_id":{"$oid":"5fd1943a9bce60833c5d1fb7"},
+	"stu_ID":53666903,
+	"first_name":"Fergus",
+	"last_name":"Macleod",
+	"pref_name":"Crowley",
+	"email":"kingofhell@hartford.edu",
+	"phone":"(666)666-6666",
+	"year":"Sophomore",
+	"gpa":3.666,
+	"major":"Demonic Deal Making",
+	"minor":"Business Management",
+	"status":"full-time",
+	"advisor":"The Darkness",
+	"init_enroll":"Sep 2020",
+	"grad_date":"May 2024"
+}
+
+{
+	"_id":{"$oid":"5fd194fc9bce60833c5d1fb8"},
+	"stu_ID":33313331,
+	"first_name":"Jimmy",
+	"last_name":"Novak",
+	"pref_name":"Castiel",
+	"email":"castiel@hartford.edu",
+	"phone":"(333)643-8942",
+	"year":"Sophomore",
+	"gpa":3.1,
+	"major":"Angelic Duty",
+	"minor":"Winchester Babysitting",
+	"status":"full-time",
+	"advisor":"Micheal",
+	"init_enroll":"Sep 2019",
+	"grad_date":"May 2023"
+}
+
+{
+	"_id":{"$oid":"5fd19fd39bce60833c5d1fba"},
+	"stu_ID":15847596,
+	"first_name":"Joanna",
+	"last_name":"Harvelle",
+	"pref_name":"Jo",
+	"email":"jharvelle@hartford.edu",
+	"phone":"(526)623-8982",
+	"year":"Freshman",
+	"gpa":2.5,
+	"major":"Monster Hunting",
+	"minor":"Food Service",
+	"status":"full-time",
+	"advisor":"Ellen Harvelle",
+	"init_enroll":"Sep 2020",
+	"grad_date":"May 2024"
+}
+
+{
+	"_id":{"$oid":"5fd1a1469bce60833c5d1fbb"},
+	"stu_ID":39485125,
+	"first_name":"Benjamin",
+	"last_name":"Lafitte",
+	"pref_name":"Benny",
+	"email":"blafiite@hartford.edu",
+	"phone":"(000)781-6254",
+	"year":"Freshman",
+	"gpa":3.2,
+	"major":"Hematology",
+	"minor":"Food Service",
+	"status":"full-time",
+	"advisor":"The Old Man",
+	"init_enroll":"Sep 2020",
+	"grad_date":"May 2024"
+}
+
+{
+	"_id":{"$oid":"5fd1a3499bce60833c5d1fbc"},
+	"stu_ID":89745984,
+	"first_name":"Charlene",
+	"last_name":"Bradbury",
+	"pref_name":"Charlie",
+	"email":"cbradb@hartford.edu",
+	"phone":"(621)254-8456",
+	"year":"Freshman",
+	"gpa":4.0,
+	"major":"Computer Engineering",
+	"minor":"Computer Science",
+	"status":"graduated",
+	"advisor":"Donald Knuth",
+	"init_enroll":"Sep 2020",
+	"grad_date":"May 2024"
+}
+
+{
+	"_id":{"$oid":"5fd1a4329bce60833c5d1fbd"},
+	"stu_ID":26475888,
+	"first_name":"Kevin",
+	"last_name":"Tran",
+	"pref_name":"Kev",
+	"email":"ktran@hartford.edu",
+	"phone":"(532)365-8459",
+	"year":"Freshman",
+	"gpa":3.9,
+	"major":"Linguistics",
+	"minor":"Religious studies",
+	"status":"full-time",
+	"advisor":"Donald Knuth",
+	"init_enroll":"Sep 2020",
+	"grad_date":"May 2024"
+}
+
+{
+	"_id":{"$oid":"5fd1b6f08c68e1eacadb11d0"},
+	"stu_ID":45557774,
+	"first_name":"Gabriel",
+	"last_name":"Archangel",
+	"pref_name":"Gabe",
+	"email":"Gabriel@hartford.edu",
+	"phone":"(333)883-8562",
+	"year":"Junior",
+	"gpa":2.1,
+	"major":"Messenger of God",
+	"minor":"Winchester Babysitting",
+	"status":"Withdrawn",
+	"advisor":"God",
+	"init_enroll":"Sep 2018",
+	"grad_date":"May 2022"
+}
+
+{
+	"_id":{"$oid":"5fd68a85556249d529f689be"},
+	"stu_ID":66616661,
+	"first_name":"Sam",
+	"last_name":"Winchester",
+	"pref_name":"Lucifer",
+	"email":"luci@hartford.edu",
+	"phone":"(666)532-2643",
+	"year":"Junior",
+	"gpa":4.0,
+	"major":"Falling From Grace",
+	"minor":"Demon Creation",
+	"status":"full-time",
+	"advisor":"God",
+	"init_enroll":"Sep 2018",
+	"grad_date":"May 2022"
+}
