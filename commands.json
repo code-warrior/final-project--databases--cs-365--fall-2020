@@ -1,3 +1,7 @@
+//database name: universityStudents
+//collection: studentInfo
+
+
 //creates a database called "universityStudents"
 use universityStudents
 
@@ -31,3 +35,8 @@ db.studentInfo.update({studentID:”002”}, {$set:{status: "graduated"}})
 
 //updates the status of the student with the lowest GPA to "withdrawn"
 db.studentInfo.update({studentID:”003”}, {$set:{status: "withdrawn"}})
+
+
+//Choose to not have personalInfo and academicInfo as two collections to be similar to original assignment 2 because the commands for retrieving all the info from students with a GPA greater than 3.5 would require at least 5 more queries to get the info of the students.
+//I could get all of the academic info of students with a gpa greater than 3.5 but it would take an additional query for each student to display their personal info.
+//Having all of the info in one collection requires only one command to yield all the info of said students.
