@@ -638,7 +638,7 @@
 {
   "personalInformation":
 {
-"name":
+  "name":
 {
   "first": "Christopher",
   "middle": "Robert",
@@ -660,7 +660,8 @@
 },
   "graduationStatus":
 {
-  "year": "First-year", "gpa": 3.80,
+  "year": "First-year",
+  "gpa": 3.80,
   "studentStatus": "full-time",
   "dateOfInitialEnrollment": "September 2017",
   "graduationDate": "May 2022"
@@ -761,5 +762,4 @@
   "dateOfInitialEnrollment": "September 2014",
   "graduationDate": "May 2018"
 }
-}
-]
+}]
