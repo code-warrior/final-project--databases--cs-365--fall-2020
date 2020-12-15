@@ -200,7 +200,7 @@ db.students.insert({
 	status: "full-time"
 	})
 
-//$gt = greaterthan $lt=lessthan
+//$gt = greaterthan $lt=lessthan || these only work if there is 1 entry for each
 db.students.find({"gpa":{$gt : 3.5}});
 
 db.students.update({"advisor":"Donald Knuth","gpa":{$gt : 3.5}},
