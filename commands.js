@@ -490,12 +490,12 @@ const graduatedStatusUpdate = {
         }
     }
 };
-const advisorStatusOptions = { sort: { programDetails: { gpa: -1 } }, returnNewDocument: true };
+const advisorStatusOptions = { sort: { "programDetails.gpa": -1 }, returnNewDocument: true };
 
 db.theStudentRecordsCollection.findOneAndUpdate(advisorFilter, graduatedStatusUpdate, advisorStatusOptions);
 
 // Update the status of the student with the lowest GPA to "withdrawn"
-const gpaSort = { sort: { programDetails: { gpa: 1 } } };
+const gpaSort = { "programDetails.gpa": 1 };
 const withdrawnStatusUpdate = {
     $set: {
         programDetails: {
@@ -505,6 +505,9 @@ const withdrawnStatusUpdate = {
         }
     }
 };
-const gpaStatusOptions = { new: true };
 
-db.theStudentRecordsCollection.findAndMOdify(gpaSort, withdrawnStatusUpdate, gpaStatusOptions);
+db.theStudentRecordsCollection.findAndModify({
+    sort: gpaSort,
+    update: withdrawnStatusUpdate,
+    new: true
+});
