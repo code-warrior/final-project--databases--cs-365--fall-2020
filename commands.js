@@ -181,7 +181,10 @@ db.theStudentRecordsCollection.insertMany(
                     program: "Computer Science",
                     type: "Bachelors of Science"
                 },
-                minors: {},
+                minors: {
+                    program: "American History",
+                    program: "History"
+                },
                 gpa: 3.97,
                 advisor: {
                     firstName: "Grace",
@@ -191,35 +194,35 @@ db.theStudentRecordsCollection.insertMany(
             }
         },
         {
-            studentId: 1000001,
+            studentId: 1000005,
             studentName: {
-                firstName: "Keith",
-                middleName: "James",
-                lastName: "Eagleson",
-                preferredName: "Keith"
+                firstName: "Mohandas",
+                middleName: "Karamchand",
+                lastName: "Gandhi",
+                preferredName: "Gandhi"
             },
             contactDetails: {
-                emailAddress: "keagleson@hartford.edu",
+                emailAddress: "mgandhi@hartford.edu",
                 primaryPhoneNumber: {
-                    countryCode: 1,
-                    areaCode: 401,
-                    exchangeCode: 123,
+                    countryCode: 91,
+                    areaCode: 731,
+                    exchangeCode: 2244,
                     lineNumber: 4567
                 }
             },
             programDetails: {
                 status: {
-                    year: "Fourth Year",
-                    type: "Part-Time",
+                    year: "Third Year",
+                    type: "Full-Time",
                     enrollmentDate: {
-                        year: 2018,
-                        month: 6,
-                        day: 15
+                        year: 2017,
+                        month: 9,
+                        day: 7
                     },
                     expectedGraduationDate: {
-                        year: 2021,
-                        month: 1,
-                        day: 5
+                        year: 2022,
+                        month: 5,
+                        day: 15
                     }
                 },
                 major: {
@@ -227,29 +230,29 @@ db.theStudentRecordsCollection.insertMany(
                     type: "Bachelors of Science"
                 },
                 minors: {},
-                gpa: 3.93,
+                gpa: 4.00,
                 advisor: {
-                    firstName: "Andrew",
+                    firstName: "Alan",
                     middleName: null,
-                    lastName: "Jung"
+                    lastName: "Turing"
                 }
             }
         },
         {
-            studentId: 1000001,
+            studentId: 1000006,
             studentName: {
-                firstName: "Keith",
-                middleName: "James",
-                lastName: "Eagleson",
-                preferredName: "Keith"
+                firstName: "Donald",
+                middleName: "John",
+                lastName: "Trump",
+                preferredName: "DONALD"
             },
             contactDetails: {
-                emailAddress: "keagleson@hartford.edu",
+                emailAddress: "dtrump@hartford.edu",
                 primaryPhoneNumber: {
                     countryCode: 1,
-                    areaCode: 401,
-                    exchangeCode: 123,
-                    lineNumber: 4567
+                    areaCode: 202,
+                    exchangeCode: 456,
+                    lineNumber: 1111
                 }
             },
             programDetails: {
@@ -257,42 +260,42 @@ db.theStudentRecordsCollection.insertMany(
                     year: "Fourth Year",
                     type: "Part-Time",
                     enrollmentDate: {
-                        year: 2018,
-                        month: 6,
-                        day: 15
+                        year: 2017,
+                        month: 1,
+                        day: 20
                     },
                     expectedGraduationDate: {
                         year: 2021,
                         month: 1,
-                        day: 5
+                        day: 20
                     }
                 },
                 major: {
-                    program: "Computer Science",
-                    type: "Bachelors of Science"
+                    program: "Chaos",
+                    type: "Bachelors of Arts"
                 },
                 minors: {},
-                gpa: 3.93,
+                gpa: 1.00,
                 advisor: {
-                    firstName: "Andrew",
-                    middleName: null,
-                    lastName: "Jung"
+                    firstName: "Roger",
+                    middleName: "Jason",
+                    lastName: "Stone"
                 }
             }
         },
         {
-            studentId: 1000001,
+            studentId: 1000007,
             studentName: {
-                firstName: "Keith",
-                middleName: "James",
-                lastName: "Eagleson",
-                preferredName: "Keith"
+                firstName: "Lucian",
+                middleName: "Lincoln",
+                lastName: "Wood",
+                preferredName: "Lin"
             },
             contactDetails: {
-                emailAddress: "keagleson@hartford.edu",
+                emailAddress: "lwood@hartford.edu",
                 primaryPhoneNumber: {
                     countryCode: 1,
-                    areaCode: 401,
+                    areaCode: 268,
                     exchangeCode: 123,
                     lineNumber: 4567
                 }
@@ -313,76 +316,78 @@ db.theStudentRecordsCollection.insertMany(
                     }
                 },
                 major: {
-                    program: "Computer Science",
+                    program: "Law",
                     type: "Bachelors of Science"
                 },
-                minors: {},
-                gpa: 3.93,
+                minors: {
+
+                },
+                gpa: 1.01,
                 advisor: {
-                    firstName: "Andrew",
+                    firstName: "Linda",
                     middleName: null,
-                    lastName: "Jung"
+                    lastName: "Fairstein"
                 }
             }
         },
         {
-            studentId: 1000001,
+            studentId: 1000008,
             studentName: {
-                firstName: "Keith",
-                middleName: "James",
-                lastName: "Eagleson",
-                preferredName: "Keith"
+                firstName: "Steve",
+                middleName: "Kevin",
+                lastName: "Bannon",
+                preferredName: "Steve"
             },
             contactDetails: {
-                emailAddress: "keagleson@hartford.edu",
+                emailAddress: "sbannon@hartford.edu",
                 primaryPhoneNumber: {
                     countryCode: 1,
-                    areaCode: 401,
+                    areaCode: 332,
                     exchangeCode: 123,
                     lineNumber: 4567
                 }
             },
             programDetails: {
                 status: {
-                    year: "Fourth Year",
-                    type: "Part-Time",
+                    year: "First Year",
+                    type: "Full-Time",
                     enrollmentDate: {
-                        year: 2018,
-                        month: 6,
-                        day: 15
+                        year: 2020,
+                        month: 8,
+                        day: 27
                     },
                     expectedGraduationDate: {
-                        year: 2021,
-                        month: 1,
-                        day: 5
+                        year: 2030,
+                        month: 5,
+                        day: 15
                     }
                 },
                 major: {
-                    program: "Computer Science",
+                    program: "Urban Planning",
                     type: "Bachelors of Science"
                 },
                 minors: {},
-                gpa: 3.93,
+                gpa: 1.04,
                 advisor: {
-                    firstName: "Andrew",
+                    firstName: "Vladimir",
                     middleName: null,
-                    lastName: "Jung"
+                    lastName: "Putin"
                 }
             }
         },
         {
-            studentId: 1000001,
+            studentId: 1000009,
             studentName: {
-                firstName: "Keith",
-                middleName: "James",
-                lastName: "Eagleson",
-                preferredName: "Keith"
+                firstName: "Stephen",
+                middleName: null,
+                lastName: "Miller",
+                preferredName: "Steve"
             },
             contactDetails: {
-                emailAddress: "keagleson@hartford.edu",
+                emailAddress: "smiller@hartford.edu",
                 primaryPhoneNumber: {
                     countryCode: 1,
-                    areaCode: 401,
+                    areaCode: 112,
                     exchangeCode: 123,
                     lineNumber: 4567
                 }
@@ -403,62 +408,103 @@ db.theStudentRecordsCollection.insertMany(
                     }
                 },
                 major: {
-                    program: "Computer Science",
+                    program: "Political Science",
                     type: "Bachelors of Science"
                 },
                 minors: {},
-                gpa: 3.93,
+                gpa: 1.01,
                 advisor: {
-                    firstName: "Andrew",
+                    firstName: "Jean",
                     middleName: null,
-                    lastName: "Jung"
+                    lastName: "Raspail"
                 }
             }
         },
         {
-            studentId: 1000001,
+            studentId: 1000010,
             studentName: {
-                firstName: "Keith",
-                middleName: "James",
-                lastName: "Eagleson",
-                preferredName: "Keith"
+                firstName: "Jared",
+                middleName: "Corey",
+                lastName: "Kushner",
+                preferredName: "Jared"
             },
             contactDetails: {
-                emailAddress: "keagleson@hartford.edu",
+                emailAddress: "jkushner@hartford.edu",
                 primaryPhoneNumber: {
                     countryCode: 1,
-                    areaCode: 401,
+                    areaCode: 318,
                     exchangeCode: 123,
                     lineNumber: 4567
                 }
             },
             programDetails: {
                 status: {
-                    year: "Fourth Year",
-                    type: "Part-Time",
+                    year: "Second Year",
+                    type: "Full-Time",
                     enrollmentDate: {
                         year: 2018,
                         month: 6,
                         day: 15
                     },
                     expectedGraduationDate: {
-                        year: 2021,
+                        year: 2022,
                         month: 1,
                         day: 5
                     }
                 },
                 major: {
-                    program: "Computer Science",
+                    program: "Government",
                     type: "Bachelors of Science"
                 },
                 minors: {},
-                gpa: 3.93,
+                gpa: 1.03,
                 advisor: {
-                    firstName: "Andrew",
+                    firstName: "Ivanka",
                     middleName: null,
-                    lastName: "Jung"
+                    lastName: "Trump"
                 }
             }
         }
     ]
-)
+);
+
+// Retrieve all the info from students with a GPA greater than 3.5
+db.theStudentRecordsCollection.find({ programDetails: { gpa: { $gt: 3.5 } } });
+
+// Update the status of the student advised by Donald Knuth with the highest GPA to "graduated"
+const advisorFilter = {
+    programDetails: {
+        advisor: {
+            firstName: "Donald",
+            middleName: null,
+            lastName: "Knuth"
+        }
+    }
+};
+const graduatedStatusUpdate = {
+    $set: {
+        programDetails: {
+            status: {
+                type: "graduated"
+            }
+        }
+    }
+};
+const advisorStatusOptions = { sort: { programDetails: { gpa: -1 } }, returnNewDocument: true };
+
+db.theStudentRecordsCollection.findOneAndUpdate(advisorFilter, graduatedStatusUpdate, advisorStatusOptions);
+
+// Update the status of the student with the lowest GPA to "withdrawn"
+const gpaSort = { sort: { programDetails: { gpa: 1 } } };
+const withdrawnStatusUpdate = {
+    $set: {
+        programDetails: {
+            status: {
+                type: "withdrawn"
+            }
+        }
+    }
+};
+const gpaStatusOptions = { new: true };
+
+db.theStudentRecordsCollection.findAndMOdify(gpaSort, withdrawnStatusUpdate, gpaStatusOptions);
