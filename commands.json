@@ -1,0 +1,42 @@
+//database name: universityStudents
+//collection: studentInfo
+
+
+//creates a database called "universityStudents"
+use universityStudents
+
+//creates a collection within the database (universityStudents) called "studentInfo"
+db.createCollection("studentInfo")
+
+//creates a variable "docs" with multiple documents
+var docs = [{firstName: "Anthony", middleName: "Edward", lastName: "Stark", prefName: "Tony", studentID: "001", email: "tstart@starkindustries.com", phone: "000-000-0000", year: "fourth year", gpa: 4.0, major: "engineering", minor: "physics", status: "graduated", advisor: "Jarvis", initEnroll: 2008, gradDate: 2012},
+  {firstName: "Steven", middleName: "Grant", lastName: "Rogers", prefName: "Steve", studentID: "002", email: "srogers@marvel.com", phone: "001-001-0001", year: "third year", gpa: 3.9, major: "physical therapy", minor: "na", status: "full time", advisor: "Donald Knuth", initEnroll: 2011, gradDate: 2015},
+  {firstName: "Thor", middleName: "na", lastName: "Odinson", prefName: "Thor", studentID: "003", email: "godofthunder@marvel.com", phone: "002-002-0002", year: "fifth year", gpa: 1.0, major: "business", minor: "na", status: "part time", advisor: "Heimdall", initEnroll: 2011, gradDate: 2016},
+  {firstName: "Clinton", middleName: "Francis", lastName: "Barton", prefName: "Clint", studentID: "004", email: "hawkeye@bullseye.com", phone: "003-003-0003", year: "second year", gpa: 3.4, major: "law", minor: "na", status: "full time", advisor: "Fury", initEnroll: 2012, gradDate: 2022},
+  {firstName: "Bruce", middleName: "na", lastName: "Banner", prefName: "Bruce", studentID: "005", email: "angerprobs@marvel.com", phone: "004-004-0004", year: "sixth year", gpa: 4.0, major: "physics", minor: "na", status: "full time", advisor: "Ross", initEnroll: 2008, gradDate: 2014},
+  {firstName: "Natasha", middleName: "Alianovna", lastName: "Romanoff", prefName: "Nat", studentID: "006", email: "notaspy@shield.gov", phone: "005-005-0005", year: "third year", gpa: 3.5, major: "psychology", minor: "na", status: "full time", advisor: "Fury", initEnroll: 2010, gradDate: 2014},
+  {firstName: "James", middleName: "Rupert", lastName: "Rhodes", prefName: "Rhodey", studentID: "007", email: "warmachine@marvel.com", phone: "006-006-0006", year: "first year", gpa: 3.1, major: "politics", minor: "na", status: "full time", advisor: "Ross", initEnroll: 2010, gradDate: 2014},
+  {firstName: "James", middleName: "Buchanon", lastName: "Barnes", prefName: "Bucky", studentID: "008", email: "metalarm@yahoo.com", phone: "007-007-0007", year: "third year", gpa: 2.4, major: "marketing", minor: "na", status: "full time", advisor: "Donald Knuth", initEnroll: 2011, gradDate: 2015},
+  {firstName: "Loki", middleName: "na", lastName: "Odinson", prefName: "Loki", studentID: "009", email: "mischieviousone@marvel.com", phone: "008-008-0008", year: "second year", gpa: 2.9, major: "theatre", minor: "na", status: "full time", advisor: "Odin", initEnroll: 2011, gradDate: 2015},
+  {firstName: "Peter", middleName: "Benjamin", lastName: "Parker", prefName: "Peter", studentID: "010", email: "sciencenerd@marvel.com", phone: "009-009-0009", year: "first year", gpa: 3.8, major: "chemistry", minor: "na", status: "full time", advisor: "Jameson", initEnroll: 2020, gradDate: 2024},
+  {firstName: "T'Challa", middleName: "na", lastName: "na", prefName: "T'Challa", studentID: "011", email: "kingofwakanda@vibranium.com", phone: "1001001000", year: "fourth year", gpa: 3.7, major: "business", minor: "na", status: "full time", advisor: "T'Chaka", initEnroll: 2018, gradDate: 2022}];
+
+//inserts all documents from "docs"variable into studentInfo
+db.studentInfo.insert(docs)
+
+//displays info of students with a GPA greater than 3.5
+db.studentInfo.find({gpa:{$gt: 3.5}}).pretty()
+
+//displays info of students advised by Donald Knuth
+db.studentInfo.find({advisor: "Donald Knuth"}).pretty()
+
+//updates the status of the student advised by Donald Knuth with the highest GPA to "graduated"
+db.studentInfo.update({studentID:”002”}, {$set:{status: "graduated"}})
+
+//updates the status of the student with the lowest GPA to "withdrawn"
+db.studentInfo.update({studentID:”003”}, {$set:{status: "withdrawn"}})
+
+
+//Choose to not have personalInfo and academicInfo as two collections to be similar to original assignment 2 because the commands for retrieving all the info from students with a GPA greater than 3.5 would require at least 5 more queries to get the info of the students.
+//I could get all of the academic info of students with a gpa greater than 3.5 but it would take an additional query for each student to display their personal info.
+//Having all of the info in one collection requires only one command to yield all the info of said students.
