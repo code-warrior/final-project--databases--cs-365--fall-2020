@@ -1,0 +1,252 @@
+use roster
+
+db.dropDatabase()
+
+use roster //place focus on roster database, then drop database, then recreate as empty database. similar to drop if exists. unsure if necessary
+
+db.createCollection(`studentsCollection`)
+
+db.studentsCollection.insert([
+    {
+        "id": "0",
+        "name": {
+            "first": "Elizabeth",
+            "middle": "Rose",
+            "last": "Smith",
+            "preferred": "Liz"
+        },
+        "contactInfo": {
+            "email": ["ERSmith@school.edu"],
+            "phoneNumber": "800-999-9999"
+        },
+        "studentInfo": {
+            "dateEnroll": "07/2017",
+            "year": "4",
+            "gpa": "3.6",
+            "major": ["Business"],
+            "minor": [],
+            "status": "Full-Time",
+            "advisor": "Dr. Bill Walsh",
+            "graduationDate": "05/2021"
+        }
+    },
+    {
+        "id": "1",
+        "name": {
+            "first": "Elizabeth",
+            "middle": "Lynn",
+            "last": "Smith",
+            "preferred": "Beth"
+        },
+        "contactInfo": {
+            "email": ["ELSmith@school.edu"],
+            "phoneNumber": "800-123-4567"
+        },
+        "studentInfo": {
+            "dateEnroll": "06/2020",
+            "year": "1",
+            "gpa": "2.9",
+            "major": ["Psychology", "Criminal Justice"],
+            "minor": ["Sociology"],
+            "status": "Part-Time",
+            "advisor": "Donald Knuth",
+            "graduationDate": "05/2024"
+        }
+    },
+    {
+        "id": "2",
+        "name": {
+            "first": "James",
+            "middle": "Edward",
+            "last": "Jones",
+            "preferred": "James"
+        },
+        "contactInfo": {
+            "email": ["JJones@school.edu"],
+            "phoneNumber": "800-111-2222"
+        },
+        "studentInfo": {
+            "dateEnroll": "05/2018",
+            "year": "3",
+            "gpa": "3.8",
+            "major": ["Computer Science"],
+            "minor": ["MMD"],
+            "status": "Full-Time",
+            "advisor": "Dr. Bill Walsh",
+            "graduationDate": "05/2022"
+        }
+    },
+    {
+        "id": "3",
+        "name": {
+            "first": "Lucas",
+            "middle": "William",
+            "last": "Peterson",
+            "preferred": "Luke"
+        },
+        "contactInfo": {
+            "email": ["LPeterson@school.edu"],
+            "phoneNumber": "800-987-6543"
+        },
+        "studentInfo": {
+            "dateEnroll": "05/2019",
+            "year": "2",
+            "gpa": "1.5",
+            "major": ["Math"],
+            "minor": ["Education"],
+            "status": "Full-Time",
+            "advisor": "Katherine Lears",
+            "graduationDate": "05/2023"
+        }
+    },
+    {
+        "id": "4",
+        "name": {
+            "first": "Kim",
+            "middle": "Rachel",
+            "last": "Park",
+            "preferred": "Kim"
+        },
+        "contactInfo": {
+            "email": ["KPark@school.edu"],
+            "phoneNumber": "800-191-9191"
+        },
+        "studentInfo": {
+            "dateEnroll": "06/2012",
+            "year": "0",
+            "gpa": "3.6",
+            "major": ["Accounting"],
+            "minor": [],
+            "status": "Graduated",
+            "advisor": "Dr. Katie Larson",
+            "graduationDate": "05/2016"
+        }
+    },
+    {
+        "id": "5",
+        "name": {
+            "first": "Melissa",
+            "middle": "Jean",
+            "last": "Scott",
+            "preferred": "MJ"
+        },
+        "contactInfo": {
+            "email": ["MJScott"],
+            "phoneNumber": "800-000-0000"
+        },
+        "studentInfo": {
+            "dateEnroll": "07/2020",
+            "year": "1",
+            "gpa": "2.2",
+            "major": ["Computer Science"],
+            "minor": [],
+            "status": "Part-Time",
+            "advisor": "Donald Knuth",
+            "graduationDate": "05/2024"
+        }
+    },
+    {
+        "id": "6",
+        "name": {
+            "first": "Iris",
+            "middle": "Kaiser",
+            "last": "Celine",
+            "preferred": "Iris"
+        },
+        "contactInfo": {
+            "email": ["ICeline@school.edu"],
+            "phoneNumber": "800-223-3344"
+        },
+        "studentInfo": {
+            "dateEnroll": "04/2017",
+            "year": "4",
+            "gpa": "4.0",
+            "major": ["Mechanical Engineering"],
+            "minor": [],
+            "status": "Full-Time",
+            "advisor": "Donald Knuth",
+            "graduationDate": "05/2021"
+        }
+    },
+    {
+        "id": "7",
+        "name": {
+            "first": "Richard",
+            "middle": "Lewis",
+            "last": "Perkins",
+            "preferred": "Rich"
+        },
+        "contactInfo": {
+            "email": ["RPerkins@school.edu"],
+            "phoneNumber": "800-159-7530"
+        },
+        "studentInfo": {
+            "dateEnroll": "06/2019",
+            "year": "2",
+            "gpa": "3.1",
+            "major": ["Pre-Med"],
+            "minor": ["Biology"],
+            "status": "Full-Time",
+            "advisor": "Dr. Katie Larson",
+            "graduationDate": "05/2023"
+        }
+    },
+    {
+        "id": "8",
+        "name": {
+            "first": "Samantha",
+            "middle": "Sera",
+            "last": "Shields",
+            "preferred": "Sammy"
+        },
+        "contactInfo": {
+            "email": ["SShields@school.edu"],
+            "phoneNumber": "800-800-8000"
+        },
+        "studentInfo": {
+            "dateEnroll": "05/2013",
+            "year": "0",
+            "gpa": "3.7",
+            "major": ["Architecture"],
+            "minor": ["History"],
+            "status": "Graduated",
+            "advisor": "Laurence Wells",
+            "graduationDate": "05/2018"
+        }
+    },
+    {
+        "id": "9",
+        "name": {
+            "first": "Carlos",
+            "middle": "Enrique",
+            "last": "Suarez",
+            "preferred": "Carlos"
+        },
+        "contactInfo": {
+            "email": ["CSuarez@school.edu"],
+            "phoneNumber": "800-852-4569"
+        },
+        "studentInfo": {
+            "dateEnroll": "04/2017",
+            "year": "4",
+            "gpa": "3.1",
+            "major": ["Systems Engineering"],
+            "minor": [],
+            "status": "Part-Time",
+            "advisor": "Dr. Bill Walsh",
+            "graduationDate": "05/2021"
+        }
+    }
+])
+
+//Retrieve all the info from students with GPA greater than 3.5
+db.studentsCollection.find({"studentInfo.gpa": {$gt: "3.5"}}).pretty()
+
+//Update the status of the student advised by Donald Knuth with the hightst GPA to "Graduated"
+db.studentsCollection.findAndModify({query: {"studentInfo.advisor": "Donald Knuth"}, sort: {"studentInfo.gpa": -1}, update: {$set: {"studentInfo.status": "Graduated"}}})
+
+//Update the status of the student with the lowest GPA to “withdrawn”
+db.studentsCollection.findAndModify({sort: {"studentInfo.gpa": 1}, update: {$set: {"studentInfo.status": "Withdrawn"}}})
+
+//Dump database to dump folder
+mongodump.exe --db roster --out C:\Users\tpark\OneDrive\Documents\GitHub\final-project--databases--cs-365--fall-2020\dump
