@@ -1,0 +1,287 @@
+// Populate the database with 10 students:
+//		- 5 students with a GPA greater then 3.5
+//		- remaining students GPA is between 1.0 and 3.5, Inclusive
+//		- at least 2 students with "Donald Knuth" as their advisor
+//		- one of Donald Knuth's students must have a GPA 3.5
+//		- no one is withdrawn
+
+db.studentList.insert({
+_id : 123456,
+name : {
+	firstName : "John",
+	middleName : "",
+	lastName : "Doe",
+	preferredName : ""
+	},
+studentInfo : {
+	major : "Psychology",
+	minor : "",
+	gpa : 3.6,
+	studentYear : "Fourth Year",
+	studentStatus : "Full-time",
+	advisor : "Donald Knuth"
+	},
+enrollmentInfo : {
+	enrollmentDate : "03/01/2016",
+	graduationDate : "05/15/2020"
+	},
+contactInfo : {
+	email : "johndoe@gmail.com",
+	phone : "(123) 456-7890"
+	}
+})
+
+db.studentList.insert({
+_id : 654321,
+name : {
+	firstName : "Jane",
+	middleName : "",
+	lastName : "Doe",
+	preferredName : ""
+	},
+studentInfo : {
+	major : "Education",
+	minor : "Math",
+	gpa : 3.7,
+	studentYear : "Third Year",
+	studentStatus : "Full-time",
+	advisor : "Matt Moore"
+	},
+enrollmentInfo : {
+	enrollmentDate : "03/01/2017",
+	graduationDate : "05/15/2021"
+	},
+contactInfo : {
+	email : "doe.jane@gmail.com",
+	phone : "(333) 333-3333"
+	}
+})
+
+db.studentList.insert({
+_id : 234567,
+name : {
+	firstName : "Gary",
+	middleName : "John",
+	lastName : "Micheal",
+	preferredName : "John"
+	},
+studentInfo : {
+	major : "History",
+	minor : "",
+	gpa : 3.75,
+	studentYear : "Fourth Year",
+	studentStatus : "Full-time",
+	advisor : "Jake Newman"
+	},
+enrollmentInfo : {
+	enrollmentDate : "03/01/2016",
+	graduationDate : "05/15/2020"
+	},
+contactInfo : {
+	email : "johnmicheal1@gmail.com",
+	phone : "(111) 111-1111"
+	}
+})
+
+db.studentList.insert({
+_id : 345678,
+name : {
+	firstName : "Carson",
+	middleName : "James",
+	lastName : "Wentz",
+	preferredName : ""
+	},
+studentInfo : {
+	major : "Social Sciences",
+	minor : "History",
+	gpa : 3.8,
+	studentYear : "First Year",
+	studentStatus : "Part-time",
+	advisor : "Abigail Verdugo"
+	},
+enrollmentInfo : {
+	enrollmentDate : "03/01/2019",
+	graduationDate : "05/15/2023"
+	},
+contactInfo : {
+	email : "cwentz11@gmail.com",
+	phone : "(222) 222-2211"
+	}
+})
+
+db.studentList.insert({
+_id : 456786,
+name : {
+	firstName : "Barry",
+	middleName : "Grant",
+	lastName : "Allen",
+	preferredName : ""
+	},
+studentInfo : {
+	major : "Computer Science",
+	minor : "",
+	gpa : 4.0,
+	studentYear : "Second Year",
+	studentStatus : "Full-time",
+	advisor : "Lucy Lou"
+	},
+enrollmentInfo : {
+	enrollmentDate : "03/01/2018",
+	graduationDate : "05/15/2022"
+	},
+contactInfo : {
+	email : "theflash@gmail.com",
+	phone : "(444) 444-4444"
+	}
+})
+
+db.studentList.insert({
+_id : 567890,
+name : {
+	firstName : "Noel",
+	middleName : "",
+	lastName : "Schurman",
+	preferredName : ""
+	},
+studentInfo : {
+	major : "Plant Sciences",
+	minor : "",
+	gpa : 1.1,
+	studentYear : "First Year",
+	studentStatus : "Part-time",
+	advisor : "Donald Knuth"
+	},
+enrollmentInfo : {
+	enrollmentDate : "03/01/2016",
+	graduationDate : "05/15/2020"
+	},
+contactInfo : {
+	email : "noelnoel@gmail.com",
+	phone : "(555) 555-5555"
+	}
+})
+
+db.studentList.insert({
+_id : 678901,
+name : {
+	firstName : "Mary",
+	middleName : "Elizabeth",
+	lastName : "Poole",
+	preferredName : "Ellie"
+	},
+studentInfo : {
+	major : "Psychology",
+	minor : "",
+	gpa : 1.6,
+	studentYear : "Senior Year",
+	studentStatus : "Full-time",
+	advisor : "George Springer"
+	},
+enrollmentInfo : {
+	enrollmentDate : "03/01/2016",
+	graduationDate : "05/15/2020"
+	},
+contactInfo : {
+	email : "mpoole6@gmail.com",
+	phone : "(777)777-7777"
+	}
+})
+
+db.studentList.insert({
+_id : 789012,
+name : {
+	firstName : "Harrison",
+	middleName : "",
+	lastName : "Williams",
+	preferredName : "Harry"
+	},
+studentInfo : {
+	major : "Criminal Justice",
+	minor : "History",
+	gpa : 2.1,
+	studentYear : "Second Year",
+	studentStatus : "Full-time",
+	advisor : "Jalen Ramsey"
+	},
+enrollmentInfo : {
+	enrollmentDate : "03/01/2018",
+	graduationDate : "05/15/2022"
+	},
+contactInfo : {
+	email : "harryw343@gmail.com",
+	phone : "(888) 888-8888"
+	}
+})
+
+db.studentList.insert({
+_id : 890123,
+name : {
+	firstName : "Jordan",
+	middleName : "",
+	lastName : "Belfort",
+	preferredName : ""
+	},
+studentInfo : {
+	major : "Marketing",
+	minor : "Finance",
+	gpa : 2.6,
+	studentYear : "First Year",
+	studentStatus : "Full-time",
+	advisor : "Manny Machado"
+	},
+enrollmentInfo : {
+	enrollmentDate : "03/01/2020",
+	graduationDate : "05/15/2024"
+	},
+contactInfo : {
+	email : "belfort.jordan@gmail.com",
+	phone : "(999) 999-9999"
+	}
+})
+
+db.studentList.insert({
+_id : 100000,
+name : {
+	firstName : "Jayson",
+	middleName : "Christopher",
+	lastName : "Tatum",
+	preferredName : ""
+	},
+studentInfo : {
+	major : "Mechanical Engineering",
+	minor : "",
+	gpa : 3.1,
+	studentYear : "Senior Year",
+	studentStatus : "Full-time",
+	advisor : "Brad Stevens"
+	},
+enrollmentInfo : {
+	enrollmentDate : "03/01/2016",
+	graduationDate : "05/15/2020"
+	},
+contactInfo : {
+	email : "jt0@gmail.com",
+	phone : "(000) 000-0000"
+	}
+})
+
+// Retrieve all the info from the student with a GPA greater then 3.5
+
+db.studentList.find({"studentInfo.gpa" : {$gt : 3.5}}).pretty()
+
+// Update the status of the student advised by Donald Knuth with the highest GPA to “graduated”
+
+db.studentList.aggregate(
+	{$match : {"studentInfo.advisor" : "Donald Knuth"}}, 
+	{$sort : {"studentInfo.gpa" : -1}},
+	{$limit : 1},
+	{$set : {"studentInfo.studentStatus" : "Graduated"}},
+	{$project : {_id : 1, name : 1, studentInfo : 1, enrollmentInfo : 1, contactInfo : 1,}}).pretty()
+
+// Update the status of the student with the lowest GPA to “withdrawn”
+
+db.studentList.aggregate( 
+	{$sort : {"studentInfo.gpa" : 1}},
+	{$limit : 1},
+	{$set : {"studentInfo.studentStatus" : "Withdrawn"}},
+	{$project : {_id : 1, name : 1, studentInfo : 1, enrollmentInfo : 1, contactInfo : 1,}}).pretty()

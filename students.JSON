@@ -1,0 +1,21 @@
+{
+"_id":324324,
+"name":{
+	"firstName":"Grayson",
+	"middleName":"James",
+	"lastName":"Allen",
+"preferredName":""},
+"studentInfo":{
+	"major":"Computer Science",
+	"minor":"Psychology",
+	"gpa":3.5,
+	"studentYear":"First Year",
+	"studentStatus":"Full-time",
+	"advisor":"Michael Krzyzewski"},
+"enrollmentInfo":{
+	"enrollmentDate":"03/01/2020",
+	"graduationDate":"05/15/2024"},
+"contactInfo":{
+	"email":"graysonjallen3@gmail.com",
+	"phone":"(324)333-2424"}
+}
